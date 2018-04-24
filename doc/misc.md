@@ -148,5 +148,6 @@ Durée d'exécution des tests : 11,4389 Secondes
 # Misc
 
 * Single-file C libraries: [https://github.com/nothings/stb](https://github.com/nothings/stb)
-
 * **VS Build Tools: [https://alastaircrabtree.com/keeping-visual-studio-2017-build-tools-up-to-date/](https://alastaircrabtree.com/keeping-visual-studio-2017-build-tools-up-to-date/)**
+* VSCode Extensions: [https://www.red-gate.com/simple-talk/dotnet/net-development/writing-vs-code-extensions-typescript](https://www.red-gate.com/simple-talk/dotnet/net-development/writing-vs-code-extensions-typescript)
+* JS Charting Libs: [https://blog.logrocket.com/comparing-the-most-popular-javascript-charting-libraries-f76fbe59ffd0](https://blog.logrocket.com/comparing-the-most-popular-javascript-charting-libraries-f76fbe59ffd0)

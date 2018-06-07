@@ -1,5 +1,17 @@
 # Visual Studio + Linux, WSL tips
 
+## WSL
+
+### Offline installs
+
+* LxRunOffline (no Microsoft's Ubuntu 18.04 this way...):
+	* [https://github.com/DDoSolitary/LxRunOffline](https://github.com/DDoSolitary/LxRunOffline)
+	* [https://github.com/DDoSolitary/LxRunOffline/wiki](https://github.com/DDoSolitary/LxRunOffline/wiki)
+	* [https://github.com/DDoSolitary/LxRunOffline/wiki/Creating-shortcuts-to-installations](https://github.com/DDoSolitary/LxRunOffline/wiki/Creating-shortcuts-to-installations)
+* Offline Appx packages:
+	* For Windows Server (No Ubuntu 18.04): [https://docs.microsoft.com/en-us/windows/wsl/install-on-server](https://docs.microsoft.com/en-us/windows/wsl/install-on-server) 
+	* 18.04: [https://www.reddit.com/r/bashonubuntuonwindows/comments/8kgkn8/possible_to_grab_ubuntu_1804_appx_from_microsoft/?st=ji3cqc75&sh=a056ca9b](https://www.reddit.com/r/bashonubuntuonwindows/comments/8kgkn8/possible_to_grab_ubuntu_1804_appx_from_microsoft/?st=ji3cqc75&sh=a056ca9b) --> [https://drive.google.com/file/d/13WOCb8jR0-YIYXR-ocufKJ529PPg0IC4/view](https://drive.google.com/file/d/13WOCb8jR0-YIYXR-ocufKJ529PPg0IC4/view)
+
 ## VS + Linux
 
 * [https://blogs.msdn.microsoft.com/vcblog/2017/04/14/bring-your-existing-c-linux-projects-to-visual-studio/](https://blogs.msdn.microsoft.com/vcblog/2017/04/14/bring-your-existing-c-linux-projects-to-visual-studio/)

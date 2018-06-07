@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.9
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "netfxver", "netfxver\netfxver.csproj", "{18EA225B-10D2-4324-B962-9EFE701054DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18EA225B-10D2-4324-B962-9EFE701054DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18EA225B-10D2-4324-B962-9EFE701054DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18EA225B-10D2-4324-B962-9EFE701054DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18EA225B-10D2-4324-B962-9EFE701054DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

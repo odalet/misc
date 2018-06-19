@@ -27,3 +27,7 @@
 	* [http://gernotklingler.com/blog/creating-using-shared-libraries-different-compilers-different-operating-systems/](http://gernotklingler.com/blog/creating-using-shared-libraries-different-compilers-different-operating-systems/)
 * Binary Compatible C++ interfaces
 	* [https://chadaustin.me/cppinterface.html](https://chadaustin.me/cppinterface.html)
+
+## Formatting & coding rules
+
+* clang-format and QtCreator: [https://github.com/qt-creator/qt-creator/blob/master/dist/clangformat/README.md](https://github.com/qt-creator/qt-creator/blob/master/dist/clangformat/README.md)

@@ -9,15 +9,34 @@
 
 ### Windows
 
+* **[http://stanislavs.org/stopping-command-line-applications-programatically-with-ctrl-c-events-from-net/](http://stanislavs.org/stopping-command-line-applications-programatically-with-ctrl-c-events-from-net/)**
 * [https://stackoverflow.com/questions/813086/can-i-send-a-ctrl-c-sigint-to-an-application-on-windows](https://stackoverflow.com/questions/813086/can-i-send-a-ctrl-c-sigint-to-an-application-on-windows)
 * [https://stackoverflow.com/questions/1679876/atexit-exit-delegate-in-c-sharp](https://stackoverflow.com/questions/1679876/atexit-exit-delegate-in-c-sharp)
 * [https://stackoverflow.com/questions/177856/how-do-i-trap-ctrl-c-in-a-c-sharp-console-app](https://stackoverflow.com/questions/177856/how-do-i-trap-ctrl-c-in-a-c-sharp-console-app)
 * [https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/signal](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/signal)
 	* [https://docs.microsoft.com/en-us/cpp/c-runtime-library/process-and-environment-control](https://docs.microsoft.com/en-us/cpp/c-runtime-library/process-and-environment-control)
-* > taskkill
+	* NB: **SIGINT is not supported for any Win32 application. When a CTRL+C interrupt occurs, Win32 operating systems generate a new thread to specifically handle that interrupt. This can cause a single-thread application, such as one in UNIX, to become multithreaded and cause unexpected behavior.**
+* **taskkill**
+	* taskkill /pid (without /f): this seems to send **WM_CLOSE**... And this does not work with console apps...
+	* taskkill /pid /f: this **forces** the termiantion of the process...
 * Microsoft's Process Extensions (from ASP.NET Core): [https://github.com/aspnet/Common/blob/ffb7c20fb22a31ac31d3a836a8455655867e8e16/shared/Microsoft.Extensions.Process.Sources/ProcessHelper.cs#L22](https://github.com/aspnet/Common/blob/ffb7c20fb22a31ac31d3a836a8455655867e8e16/shared/Microsoft.Extensions.Process.Sources/ProcessHelper.cs#L22)
 	* [https://github.com/aspnet/Common/pull/360](https://github.com/aspnet/Common/pull/360)
 	* Prefer this impl: [https://github.com/aspnet/Common/blob/dev/shared/Microsoft.Extensions.Process.Sources/ProcessHelper.cs](https://github.com/aspnet/Common/blob/dev/shared/Microsoft.Extensions.Process.Sources/ProcessHelper.cs)
+
+#### Windows Signals
+
+Copied from <signal.h>
+	
+	// Signal types
+	#define SIGINT          2   // interrupt
+	#define SIGILL          4   // illegal instruction - invalid function image
+	#define SIGFPE          8   // floating point exception
+	#define SIGSEGV         11  // segment violation
+	#define SIGTERM         15  // Software termination signal from kill
+	#define SIGBREAK        21  // Ctrl-Break sequence
+	#define SIGABRT         22  // abnormal termination triggered by abort call
+	
+	#define SIGABRT_COMPAT  6   // SIGABRT compatible with other platforms, same as SIGABRT
 
 ### Linux / .NET Core
 

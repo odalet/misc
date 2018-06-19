@@ -31,3 +31,28 @@
 ## Formatting & coding rules
 
 * clang-format and QtCreator: [https://github.com/qt-creator/qt-creator/blob/master/dist/clangformat/README.md](https://github.com/qt-creator/qt-creator/blob/master/dist/clangformat/README.md)
+
+## Misc
+
+* Matrix:
+	* [https://codereview.stackexchange.com/questions/186317/short-square-matrix-class-in-c-using-an-array](https://codereview.stackexchange.com/questions/186317/short-square-matrix-class-in-c-using-an-array) 
+	* [https://stackoverflow.com/questions/34828429/matrix-multiplication-algorithm](https://stackoverflow.com/questions/34828429/matrix-multiplication-algorithm)
+* Constructor initializer list: 
+	* [https://stackoverflow.com/questions/4057948/initializing-a-member-array-in-constructor-initializer](https://stackoverflow.com/questions/4057948/initializing-a-member-array-in-constructor-initializer)
+	* [http://www.cplusplus.com/reference/initializer_list/initializer_list/](http://www.cplusplus.com/reference/initializer_list/initializer_list/)
+	* [https://akrzemi1.wordpress.com/2016/07/07/the-cost-of-stdinitializer_list/](https://akrzemi1.wordpress.com/2016/07/07/the-cost-of-stdinitializer_list/)
+	* [https://en.cppreference.com/w/cpp/language/initializer_list](https://en.cppreference.com/w/cpp/language/initializer_list)
+* Operators overloading:
+	* [https://arne-mertz.de/2015/01/operator-overloading-the-basics/](https://arne-mertz.de/2015/01/operator-overloading-the-basics/)
+	* [https://arne-mertz.de/2015/01/operator-overloading-common-practice/](https://arne-mertz.de/2015/01/operator-overloading-common-practice/)
+	* [https://stackoverflow.com/questions/2425906/operator-overloading-outside-class](https://stackoverflow.com/questions/2425906/operator-overloading-outside-class)
+* try/throw/catch, exceptions: 
+	* [https://msdn.microsoft.com/fr-fr/library/6dekhbbc.aspx](https://msdn.microsoft.com/fr-fr/library/6dekhbbc.aspx)
+	* [http://en.cppreference.com/w/cpp/error/out_of_range](http://en.cppreference.com/w/cpp/error/out_of_range)
+* to_string: [https://stackoverflow.com/questions/5590381/easiest-way-to-convert-int-to-string-in-chttps://stackoverflow.com/questions/5590381/easiest-way-to-convert-int-to-string-in-c](https://stackoverflow.com/questions/5590381/easiest-way-to-convert-int-to-string-in-chttps://stackoverflow.com/questions/5590381/easiest-way-to-convert-int-to-string-in-c)
+* Template Restrictions + Type aliases:
+	* [https://stackoverflow.com/questions/16976720/how-do-i-restrict-a-template-class-to-certain-built-in-types](https://stackoverflow.com/questions/16976720/how-do-i-restrict-a-template-class-to-certain-built-in-types)
+	* [https://stackoverflow.com/questions/43013243/can-using-be-used-to-type-alias-an-array](https://stackoverflow.com/questions/43013243/can-using-be-used-to-type-alias-an-array)
+	* [https://stackoverflow.com/questions/6622452/alias-template-specialisation](https://stackoverflow.com/questions/6622452/alias-template-specialisation)
+
+

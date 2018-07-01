@@ -1,5 +1,12 @@
 # C++
 
+## Building, packaging, CI
+
+* Conan -> bincrafters
+* vspkg
+* CMake
+* Jenkins
+
 ## Language
 
 * const usage

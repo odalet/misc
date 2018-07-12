@@ -12,6 +12,10 @@
 	* For Windows Server (No Ubuntu 18.04): [https://docs.microsoft.com/en-us/windows/wsl/install-on-server](https://docs.microsoft.com/en-us/windows/wsl/install-on-server) 
 	* 18.04: [https://www.reddit.com/r/bashonubuntuonwindows/comments/8kgkn8/possible_to_grab_ubuntu_1804_appx_from_microsoft/?st=ji3cqc75&sh=a056ca9b](https://www.reddit.com/r/bashonubuntuonwindows/comments/8kgkn8/possible_to_grab_ubuntu_1804_appx_from_microsoft/?st=ji3cqc75&sh=a056ca9b) --> [https://drive.google.com/file/d/13WOCb8jR0-YIYXR-ocufKJ529PPg0IC4/view](https://drive.google.com/file/d/13WOCb8jR0-YIYXR-ocufKJ529PPg0IC4/view)
 
+### Uninstalling
+
+* If it fails, [https://github.com/Microsoft/WSL/issues/2397](https://github.com/Microsoft/WSL/issues/2397)
+
 ### Development tools
 
 * [https://blogs.msdn.microsoft.com/vcblog/2017/02/08/targeting-windows-subsystem-for-linux-from-visual-studio/](https://blogs.msdn.microsoft.com/vcblog/2017/02/08/targeting-windows-subsystem-for-linux-from-visual-studio/)

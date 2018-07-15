@@ -9,6 +9,11 @@
 	* Mocks: [http://alltwincat.com/2018/05/23/mocking-objects-in-twincat/](http://alltwincat.com/2018/05/23/mocking-objects-in-twincat/)
 	* Libraries: [http://alltwincat.com/2018/03/01/managing-twincat-libraries/](http://alltwincat.com/2018/03/01/managing-twincat-libraries/)
 
+## ADS
+
+* OSS C++ Impl: [https://github.com/Beckhoff/ADS](https://github.com/Beckhoff/ADS)
+* ODD C# Client: [https://github.com/MrCircuit/adsclient](https://github.com/MrCircuit/adsclient)
+
 ## Automation
 
 * [https://infosys.beckhoff.com/english.php?content=../content/1033/tcplccontrol/html/tcplcctrl_componentsprojects.htm&id=](https://infosys.beckhoff.com/english.php?content=../content/1033/tcplccontrol/html/tcplcctrl_componentsprojects.htm&id=)

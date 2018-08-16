@@ -7,9 +7,11 @@
 * **[https://docs.microsoft.com/en-us/aspnet/core/fundamentals/host/hosted-services?view=aspnetcore-2.1](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/host/hosted-services?view=aspnetcore-2.1)**
 * [https://thinkrethink.net/2018/08/02/hostbuilder-ihost-ihostedserice-console-application/](https://thinkrethink.net/2018/08/02/hostbuilder-ihost-ihostedserice-console-application/)
 * [https://thinkrethink.net/2018/02/21/asp-net-core-background-processing/](https://thinkrethink.net/2018/02/21/asp-net-core-background-processing/)
+* [https://garywoodfine.com/ihost-net-core-console-applications/](https://garywoodfine.com/ihost-net-core-console-applications/)
 * Scheduled: [https://thinkrethink.net/2018/05/31/run-scheduled-background-tasks-in-asp-net-core/](https://thinkrethink.net/2018/05/31/run-scheduled-background-tasks-in-asp-net-core/)
 * Scoped: [https://thinkrethink.net/2018/07/12/injecting-a-scoped-service-into-ihostedservice/](https://thinkrethink.net/2018/07/12/injecting-a-scoped-service-into-ihostedservice/)
 * Windows Service: [https://www.stevejgordon.co.uk/running-net-core-generic-host-applications-as-a-windows-service](https://www.stevejgordon.co.uk/running-net-core-generic-host-applications-as-a-windows-service)
+* Ctrl+C / SIGTERM: [https://docs.microsoft.com/en-us/dotnet/api/microsoft.extensions.hosting.hostinghostbuilderextensions.useconsolelifetime?view=aspnetcore-2.1](https://docs.microsoft.com/en-us/dotnet/api/microsoft.extensions.hosting.hostinghostbuilderextensions.useconsolelifetime?view=aspnetcore-2.1)
 
 ## Architecture
 * [http://piotrgankiewicz.com/2018/07/05/net-core-microservices-dshop/](http://piotrgankiewicz.com/2018/07/05/net-core-microservices-dshop/)

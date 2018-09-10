@@ -2,13 +2,11 @@
 
 namespace WKill
 {
+    // See https://docs.microsoft.com/en-us/windows/console/generateconsolectrlevent
     internal enum CtrlTypes : uint
     {
         CTRL_C_EVENT = 0,
-        CTRL_BREAK_EVENT,
-        CTRL_CLOSE_EVENT,
-        CTRL_LOGOFF_EVENT = 5,
-        CTRL_SHUTDOWN_EVENT
+        CTRL_BREAK_EVENT = 1
     }
 
     internal delegate bool ConsoleCtrlDelegate(CtrlTypes CtrlType); 

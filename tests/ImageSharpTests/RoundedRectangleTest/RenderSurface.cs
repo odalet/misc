@@ -60,7 +60,7 @@ namespace RoundedRectangleTest
             _ = Context.DrawText(text, font, Color.White, new PointF(aligned.X, aligned.Y));
         }
 
-        public void DrawProgressBar(int percentage, int width, FontSize fontSize = FontSize.Medium, int borderThickness = 2, int cornerRadius = 4, int padding = 4)
+        public void DrawProgressBar(int percentage, int width, FontSize fontSize = FontSize.Medium, int borderThickness = 2, int cornerRadius = 16, int padding = 4)
         {
             // Clamp percentage to the [0;100] range
             var percents = percentage < 0 ? 0 : (percentage > 100 ? 100 : percentage);

@@ -51,33 +51,14 @@ namespace RoundedRectangleTest
                 yield return first;
             }
 
-            IEnumerable<PointF> getPathPoints()
-            {
-                foreach (var point in makeTopLeftCorner())
-                    yield return point;
-
-                foreach (var point in makeTopRightCorner())
-                    yield return point;
-
-                foreach (var point in makeBottomRightCorner())
-                    yield return point;
-
-                foreach (var point in makeBottomLeftCorner())
-                    yield return point;
-            }
-
-            var points = getPathPoints().ToArray();
-            var segments = new List<LinearLineSegment>();
-            var previous = points[0];
-            for (var i = 1; i < points.Length; i++)
-            {
-                var current = points[i];
-                var segment = new LinearLineSegment(previous, current);
-                segments.Add(segment);
-                previous = current;
-            }
-
-            return new Path(segments).AsClosedPath();
+            return new PathBuilder()
+                .AddLines(makeTopLeftCorner())
+                .AddLines(makeTopRightCorner())
+                .AddLines(makeBottomRightCorner())
+                .AddLines(makeBottomLeftCorner())
+                .CloseFigure()
+                .Build()
+                ;
         }
 
         private static bool IsInRect(this PointF point, RectangleF rectangle) =>

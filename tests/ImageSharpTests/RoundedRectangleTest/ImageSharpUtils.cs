@@ -1,6 +1,7 @@
 ﻿using System;
+#if !IMAGESHARP_V2
 using System.IO;
-using System.Runtime.InteropServices;
+#endif
 using SixLabors.ImageSharp;
 using SixLabors.ImageSharp.PixelFormats;
 using SixLabors.ImageSharp.Processing;
@@ -12,14 +13,38 @@ namespace RoundedRectangleTest
     {
         public static Image GetLena() => Image.Load(Properties.Resources.LenaPngBytes);
 
-        //private struct Bgra32
-        //{
-        //    public byte B;
-        //    public byte G;
-        //    public byte R;
-        //    public byte A;
-        //}
+#if IMAGESHARP_V2
+        public static unsafe SD.Image ToImage(this Image<Rgba32> image)
+        {
+            var w = image.Width;
+            var h = image.Height;
+            var result = new SD.Bitmap(w, h, SD.Imaging.PixelFormat.Format32bppArgb);
+            var bd = result.LockBits(new SD.Rectangle(0, 0, w, h), SD.Imaging.ImageLockMode.WriteOnly, SD.Imaging.PixelFormat.Format32bppArgb);            
+            try
+            {
+                image.ProcessPixelRows(accessor =>
+                {
+                    var destination = new Span<Bgra32>((void*)bd.Scan0, w * h);
+                    for (var y =0; y < w; y++)
+                    {
+                        var row = accessor.GetRowSpan(y);
+                        for (var x =0; x < h; x++)
+                        {
+                            var bgra = new Bgra32();
+                            bgra.FromRgba32(row[x]);
+                            destination[y * w + x] = bgra;
+                        }
+                    }
+                });
+            }
+            finally
+            {
+                result.UnlockBits(bd);
+            }
 
+            return result;
+        }
+#else
         public static unsafe SD.Image ToImage(this Image<Rgba32> image)
         {
             if (!image.TryGetSinglePixelSpan(out var source))
@@ -52,7 +77,7 @@ namespace RoundedRectangleTest
 
             return result;
         }
-
+#endif
         public static Image<Rgba32> Render(Image source, int percents)
         {
             var gray = source.CloneAs<L8>();

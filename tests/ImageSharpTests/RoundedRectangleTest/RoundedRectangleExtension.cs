@@ -1,5 +1,8 @@
-﻿using System.Collections.Generic;
-using System.Linq;
+﻿#if !IMAGESHARP_V2
+using System;
+using System.Collections.Generic;
+using System.Numerics;
+#endif
 using SixLabors.ImageSharp;
 using SixLabors.ImageSharp.Drawing;
 
@@ -9,63 +12,126 @@ namespace RoundedRectangleTest
     {
         public static IPath ToRoundedRectangle(this RectangleF rectangle, float cornerRadius)
         {
-            IEnumerable<PointF> makeTopLeftCorner()
-            {
-                var ox = rectangle.Left + cornerRadius;
-                var oy = rectangle.Top + cornerRadius;
-                var clip = new RectangleF(rectangle.Left, rectangle.Top, cornerRadius, cornerRadius);
-                var ellipse = new EllipsePolygon(ox, oy, cornerRadius);
-                return ellipse.ClipCorner(clip);
-            }
-
-            IEnumerable<PointF> makeTopRightCorner()
-            {
-                var ox = rectangle.Right - cornerRadius;
-                var oy = rectangle.Top + cornerRadius;
-                var clip = new RectangleF(ox, rectangle.Top, cornerRadius, cornerRadius);
-                var ellipse = new EllipsePolygon(ox, oy, cornerRadius);
-                return ellipse.ClipCorner(clip);
-            }
-
-            IEnumerable<PointF> makeBottomRightCorner()
-            {
-                var ox = rectangle.Right - cornerRadius;
-                var oy = rectangle.Bottom - cornerRadius;
-                var clip = new RectangleF(ox, oy, cornerRadius, cornerRadius);
-                var ellipse = new EllipsePolygon(ox, oy, cornerRadius);
-                return ellipse.ClipCorner(clip);
-            }
-
-            IEnumerable<PointF> makeBottomLeftCorner()
-            {
-                var ox = rectangle.Left + cornerRadius;
-                var oy = rectangle.Bottom - cornerRadius;
-                var clip = new RectangleF(rectangle.Left, oy, cornerRadius, cornerRadius);
-                var ellipse = new EllipsePolygon(ox, oy, cornerRadius);
-
-                // Special case here: the first point should be returned last; other ones are good
-                var clipped = ellipse.ClipCorner(clip);
-                var first = clipped.First();
-                foreach (var point in clipped.Skip(1))
-                    yield return point;
-                yield return first;
-            }
-
             return new PathBuilder()
-                .AddLines(makeTopLeftCorner())
-                .AddLines(makeTopRightCorner())
-                .AddLines(makeBottomRightCorner())
-                .AddLines(makeBottomLeftCorner())
+                .AddEllipticalArc(rectangle.Left + cornerRadius, rectangle.Top + cornerRadius, cornerRadius, cornerRadius, 0, -90, -90)
+                .AddEllipticalArc(rectangle.Right - cornerRadius, rectangle.Top + cornerRadius, cornerRadius, cornerRadius, 0, 180, -90)
+                .AddEllipticalArc(rectangle.Right - cornerRadius, rectangle.Bottom - cornerRadius, cornerRadius, cornerRadius, 0, 90, -90)
+                .AddEllipticalArc(rectangle.Left + cornerRadius, rectangle.Bottom - cornerRadius, cornerRadius, cornerRadius, 0, 0, -90)
                 .CloseFigure()
                 .Build()
                 ;
         }
 
-        private static bool IsInRect(this PointF point, RectangleF rectangle) =>
-            point.X >= rectangle.Left && point.X <= rectangle.Right &&
-            point.Y >= rectangle.Top && point.Y <= rectangle.Bottom;
+#if !IMAGESHARP_V2
+        // NB: this does not support passing the builder's transformation to the arc...
+        private static PathBuilder AddEllipticalArc(this PathBuilder builder, float x, float y, float radiusX, float radiusY, float rotation, float startAngle, float sweepAngle) =>
+            builder.AddSegment(new EllipticalArcLineSegment(x, y, radiusX, radiusY, rotation, startAngle, sweepAngle, Matrix3x2.Identity));
 
-        private static IEnumerable<PointF> ClipCorner(this EllipsePolygon ellipse, RectangleF clip) =>
-            ellipse.Points.ToArray().Where(p => p.IsInRect(clip));
+        // Copied from https://github.com/SixLabors/ImageSharp.Drawing/blob/7ffae70dfb9eaf8a7e03ed98d8c2e60e0aed2ed7/src/ImageSharp.Drawing/Shapes/EllipticalArcLineSegment.cs
+        private sealed class EllipticalArcLineSegment : ILineSegment
+        {
+            private const float MinimumSqrDistance = 1.75f;
+            private readonly PointF[] linePoints;
+            private readonly float x;
+            private readonly float y;
+            private readonly float radiusX;
+            private readonly float radiusY;
+            private readonly float rotation;
+            private readonly float startAngle;
+            private readonly float sweepAngle;
+            private readonly Matrix3x2 transformation;
+
+            public EllipticalArcLineSegment(float x, float y, float radiusX, float radiusY, float rotation, float startAngle, float sweepAngle, Matrix3x2 transformation)
+            {
+                this.x = x;
+                this.y = y;
+                this.radiusX = radiusX;
+                this.radiusY = radiusY;
+                this.rotation = rotation % 360;
+                this.startAngle = startAngle % 360;
+                this.transformation = transformation;
+                this.sweepAngle = sweepAngle;
+                if (sweepAngle > 360)
+                    this.sweepAngle = 360;
+
+                if (sweepAngle < -360)
+                    this.sweepAngle = -360;
+
+                linePoints = GetDrawingPoints();
+                EndPoint = linePoints[linePoints.Length - 1];
+            }
+
+            public PointF EndPoint { get; }
+
+            public EllipticalArcLineSegment Transform(Matrix3x2 matrix) => matrix.IsIdentity
+                ? this
+                : new EllipticalArcLineSegment(x, y, radiusX, radiusY, rotation, startAngle, sweepAngle, Matrix3x2.Multiply(transformation, matrix));
+
+            ILineSegment ILineSegment.Transform(Matrix3x2 matrix) => Transform(matrix);
+
+            private PointF[] GetDrawingPoints()
+            {
+                var points = new List<PointF>() { CalculatePoint(startAngle) };
+
+                if (sweepAngle < 0)
+                {
+                    for (var i = startAngle; i > startAngle + sweepAngle; i--)
+                    {
+                        var end = i - 1;
+                        if (end <= startAngle + sweepAngle)
+                            end = startAngle + sweepAngle;
+
+                        points.AddRange(GetDrawingPoints(i, end, 0));
+                    }
+                }
+                else
+                {
+                    for (var i = startAngle; i < startAngle + sweepAngle; i++)
+                    {
+                        var end = i + 1;
+                        if (end >= startAngle + sweepAngle)
+                            end = startAngle + sweepAngle;
+
+                        points.AddRange(GetDrawingPoints(i, end, 0));
+                    }
+                }
+
+                return points.ToArray();
+            }
+
+            private List<PointF> GetDrawingPoints(float start, float end, int depth)
+            {
+                if (depth > 1000)
+                    return new List<PointF>();
+
+                var points = new List<PointF>();
+
+                var startP = CalculatePoint(start);
+                var endP = CalculatePoint(end);
+                if ((new Vector2(endP.X, endP.Y) - new Vector2(startP.X, startP.Y)).LengthSquared() < MinimumSqrDistance)
+                    points.Add(endP);
+                else
+                {
+                    float mid = start + (end - start) / 2;
+                    points.AddRange(GetDrawingPoints(start, mid, depth + 1));
+                    points.AddRange(GetDrawingPoints(mid, end, depth + 1));
+                }
+
+                return points;
+            }
+
+            private PointF CalculatePoint(float angle)
+            {
+                var x = radiusX * MathF.Sin(MathF.PI * angle / 180) * MathF.Cos(MathF.PI * rotation / 180) -
+                    radiusY * MathF.Cos(MathF.PI * angle / 180) * MathF.Sin(MathF.PI * rotation / 180) + this.x;
+                var y = radiusX * MathF.Sin(MathF.PI * angle / 180) * MathF.Sin(MathF.PI * rotation / 180) +
+                    radiusY * MathF.Cos(MathF.PI * angle / 180) * MathF.Cos(MathF.PI * rotation / 180) + this.y;
+
+                return PointF.Transform(new PointF(x, y), transformation);
+            }
+
+            public ReadOnlyMemory<PointF> Flatten() => linePoints;
+        }
+#endif
     }
 }

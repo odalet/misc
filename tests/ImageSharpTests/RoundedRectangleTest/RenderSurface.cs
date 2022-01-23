@@ -52,7 +52,12 @@ namespace RoundedRectangleTest
         public void DrawText(string text, HorizontalAlignment halign, VerticalAlignment valign, FontSize fontSize = FontSize.Small, int margin = 4)
         {
             var font = fonts[fontSize];
-            var size = TextMeasurer.Measure(text, new RendererOptions(font));
+#if IMAGESHARP_V2
+            var options = new TextOptions(font);
+#else
+            var options = new RendererOptions(font);
+#endif
+            var size = TextMeasurer.Measure(text, options);
             var aligned = Align((int)size.Width, (int)size.Height, halign, valign, margin);
 
             if (DebugMode)
@@ -67,11 +72,16 @@ namespace RoundedRectangleTest
             var text = $"{percents}%";
 
             var font = fonts[fontSize];
+#if IMAGESHARP_V2
+            var options = new TextOptions(font);
+#else
+            var options = new RendererOptions(font);
+#endif
 
             // In order for the text to feel correctly vertically centered, we measure a string with characters
             // that go below (like g or j) and others that go up (like t or f). We say this should be the text height.
-            var textHeight = TextMeasurer.Measure("gf", new RendererOptions(font)).Height;
-            var textWidth = TextMeasurer.Measure(text, new RendererOptions(font)).Width;
+            var textHeight = TextMeasurer.Measure("gf", options).Height;
+            var textWidth = TextMeasurer.Measure(text, options).Width;
             var textSizeWithPadding = new SizeF(textWidth + padding, textHeight + padding);
 
             var rectangleSize = new SizeF(

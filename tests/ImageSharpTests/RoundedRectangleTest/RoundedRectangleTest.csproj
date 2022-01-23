@@ -7,6 +7,10 @@
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
 
+  <PropertyGroup>
+    <!--<DefineConstants>IMAGESHARP_V2</DefineConstants>-->
+  </PropertyGroup>
+  
   <ItemGroup>
     <Compile Update="Properties\Resources.Designer.cs">
       <DesignTime>True</DesignTime>
@@ -22,9 +26,15 @@
     </EmbeddedResource>
   </ItemGroup>
 
-  <ItemGroup>
-    <PackageReference Include="SixLabors.Fonts" Version="1.0.0-beta15" />
+  <ItemGroup Condition="'$(DefineConstants.Contains(`IMAGESHARP_V2`))' == 'true'">
+    <PackageReference Include="SixLabors.ImageSharp" Version="2.0.0-alpha.0.159" />
+    <PackageReference Include="SixLabors.Fonts" Version="1.0.0-beta15.24" />
+    <PackageReference Include="SixLabors.ImageSharp.Drawing" Version="1.0.0-beta13.19" />
+  </ItemGroup>
+
+  <ItemGroup Condition="'$(DefineConstants.Contains(`IMAGESHARP_V2`))' == 'false'">
     <PackageReference Include="SixLabors.ImageSharp" Version="1.0.4" />
+    <PackageReference Include="SixLabors.Fonts" Version="1.0.0-beta15" />
     <PackageReference Include="SixLabors.ImageSharp.Drawing" Version="1.0.0-beta13" />
   </ItemGroup>
 

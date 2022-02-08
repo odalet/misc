@@ -25,9 +25,12 @@ namespace RoundedRectangleTest
                 image.ProcessPixelRows(accessor =>
                 {
                     var destination = new Span<Bgra32>((void*)bd.Scan0, w * h);
+                    
+                    // TODO: BUG! y should go from 0 to h, not w!!!
                     for (var y =0; y < w; y++)
                     {
                         var row = accessor.GetRowSpan(y);
+                        // TODO: BUG! x should go from 0 to w, not h!!!                        
                         for (var x =0; x < h; x++)
                         {
                             var bgra = new Bgra32();

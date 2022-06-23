@@ -1,7 +1,5 @@
 ﻿using System.Linq;
-using Structurizr.Client;
-using Structurizr.Model;
-using Structurizr.View;
+using Structurizr.Api;
 
 namespace Structurizr.Examples
 {
@@ -114,16 +112,16 @@ namespace Structurizr.Examples
 
             // create some views
             var viewSet = workspace.Views;
-            var contextView = viewSet.CreateContextView(financialRiskSystem);
+            var contextView = viewSet.CreateSystemContextView(financialRiskSystem, "context", "System Context View");
             contextView.PaperSize = PaperSize.A4_Landscape;
             contextView.AddAllSoftwareSystems();
             contextView.AddAllPeople();
 
-            var containerView = viewSet.CreateContainerView(financialRiskSystem);
+            var containerView = viewSet.CreateContainerView(financialRiskSystem, "container", "Container View");
             contextView.PaperSize = PaperSize.A4_Landscape;
             containerView.AddAllElements();
 
-            var componentViewForBatchProcess = viewSet.CreateComponentView(batchProcess);
+            var componentViewForBatchProcess = viewSet.CreateComponentView(batchProcess, "component", "Component View");
             contextView.PaperSize = PaperSize.A3_Landscape;
             componentViewForBatchProcess.AddAllElements();
             componentViewForBatchProcess.Remove(configurationUser);
@@ -179,7 +177,7 @@ namespace Structurizr.Examples
             // and upload the model to structurizr.com
             var structurizrClient = new StructurizrClient("4fd23f21-0139-4fb3-b832-22a1fc8b8d83", "d439618a-336d-4c37-b6fe-20c0846ffbd9");
             //structurizrClient.PutWorkspace(9861L, workspace);
-            structurizrClient.MergeWorkspace(9861L, workspace);
+            //structurizrClient.MergeWorkspace(9861L, workspace);
         }
     }
 }

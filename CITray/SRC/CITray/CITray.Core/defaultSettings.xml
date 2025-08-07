@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<settings version="0.1.0">
+  <global>
+    <pluginsFolder>.\plugins</pluginsFolder>
+    <enabledPlugins>
+      <plugin name="Hudson" type="CITray.Hudson.HudsonPlugin, CITray.Hudson, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null" />
+    </enabledPlugins>
+  </global>
+</settings>

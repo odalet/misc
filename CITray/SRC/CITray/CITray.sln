@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CITray", "CITray\CITray.csproj", "{8FC83630-E68D-4031-9DDE-DB8820F74312}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FD47FB55-5725-4E95-AD7A-A02AF32D573F} = {FD47FB55-5725-4E95-AD7A-A02AF32D573F}
+		{0DC82BBB-FB2B-4D3C-8012-377F8F924972} = {0DC82BBB-FB2B-4D3C-8012-377F8F924972}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Plugins", "Plugins", "{9D9EDCDA-25AB-4F5F-810B-6CC48CF73CAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CITray.Hudson", "CITray.Hudson\CITray.Hudson.csproj", "{FD47FB55-5725-4E95-AD7A-A02AF32D573F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CITray.Api", "CITray.Api\CITray.Api.csproj", "{387FF5F7-118C-4944-A986-C1CC47D6C7FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CITray.Core", "CITray.Core\CITray.Core.csproj", "{2653815E-AA35-4CEE-8067-5393A5B93EA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CITray.MockPlugin", "CITray.MockPlugin\CITray.MockPlugin.csproj", "{0DC82BBB-FB2B-4D3C-8012-377F8F924972}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Misc", "Misc", "{95664B32-7B42-4786-887B-B8D967A5051B}"
+	ProjectSection(SolutionItems) = preProject
+		..\Credits.md = ..\Credits.md
+		..\History.md = ..\History.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8FC83630-E68D-4031-9DDE-DB8820F74312}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FC83630-E68D-4031-9DDE-DB8820F74312}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FC83630-E68D-4031-9DDE-DB8820F74312}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FC83630-E68D-4031-9DDE-DB8820F74312}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD47FB55-5725-4E95-AD7A-A02AF32D573F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD47FB55-5725-4E95-AD7A-A02AF32D573F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD47FB55-5725-4E95-AD7A-A02AF32D573F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD47FB55-5725-4E95-AD7A-A02AF32D573F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{387FF5F7-118C-4944-A986-C1CC47D6C7FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{387FF5F7-118C-4944-A986-C1CC47D6C7FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{387FF5F7-118C-4944-A986-C1CC47D6C7FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{387FF5F7-118C-4944-A986-C1CC47D6C7FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2653815E-AA35-4CEE-8067-5393A5B93EA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2653815E-AA35-4CEE-8067-5393A5B93EA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2653815E-AA35-4CEE-8067-5393A5B93EA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2653815E-AA35-4CEE-8067-5393A5B93EA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DC82BBB-FB2B-4D3C-8012-377F8F924972}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DC82BBB-FB2B-4D3C-8012-377F8F924972}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DC82BBB-FB2B-4D3C-8012-377F8F924972}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DC82BBB-FB2B-4D3C-8012-377F8F924972}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FD47FB55-5725-4E95-AD7A-A02AF32D573F} = {9D9EDCDA-25AB-4F5F-810B-6CC48CF73CAF}
+		{0DC82BBB-FB2B-4D3C-8012-377F8F924972} = {9D9EDCDA-25AB-4F5F-810B-6CC48CF73CAF}
+	EndGlobalSection
+EndGlobal

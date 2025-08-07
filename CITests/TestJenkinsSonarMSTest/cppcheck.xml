@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="1.74"/>
+    <errors>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;CppCalc&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;CppCalc&amp;#039; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided.">
+            <location file0="D:\HOME\DELTA\CITests\TestJenkinsSonarMSTest\CppLib\CppCalc.cpp" file="D:\HOME\DELTA\CITests\TestJenkinsSonarMSTest\CppLib\CppCalc.h" line="11"/>
+        </error>
+    </errors>
+</results>

@@ -1,0 +1,32 @@
+﻿<UserControl x:Class="TestApp.Views.MainView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:TestApp.Views"
+             xmlns:ui="clr-namespace:TestApp.UI"  
+             mc:Ignorable="d" 
+             d:DesignHeight="69.383" d:DesignWidth="300"
+             DataContext="{Binding MainViewModel, Source={StaticResource Locator}}">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <StackPanel Orientation="Horizontal">
+            <TextBlock Text="X:" Margin="0,0,5,0" />
+            <ui:NumericTextBox MinWidth="60" Margin="5,0" Text="{Binding X, Mode=OneWayToSource}" />
+            <TextBlock Text="Y:" Margin="5,0" />
+            <ui:NumericTextBox MinWidth="60" Margin="5,0" Text="{Binding Y, Mode=OneWayToSource}" />
+            <TextBlock Text="Result:" Margin="5,0" />
+            <ui:NumericTextBox MinWidth="60" Margin="5,0" IsReadOnly="True" Text="{Binding Result, Mode=OneWay}" />
+        </StackPanel>
+        <StackPanel Grid.Row="1" Orientation="Horizontal">
+            <Button Content="+" Width="20" Height="20" Margin="0,5" Command="{Binding AddCommand, Mode=OneTime}" />
+            <Button Content="-" Width="20" Height="20" Margin="5" Command="{Binding SubtractCommand, Mode=OneTime}" />
+            <Button Content="*" Width="20" Height="20" Margin="5" Command="{Binding MultiplyCommand, Mode=OneTime}" />
+            <Button Content="/" Width="20" Height="20" Margin="5" Command="{Binding DivideCommand, Mode=OneTime}" />
+        </StackPanel>
+    </Grid>
+</UserControl>

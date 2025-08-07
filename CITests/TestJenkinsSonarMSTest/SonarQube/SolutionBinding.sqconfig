@@ -1,0 +1,10 @@
+{
+  "ServerUri": "http://localhost:9000",
+  "ProjectKey": "TestJenkinsSonarMSTest",
+  "Profiles": {
+    "CSharp": {
+      "ProfileKey": "cs-sonar-way-46403",
+      "ProfileTimestamp": "2016-06-25T13:42:29+02:00"
+    }
+  }
+}

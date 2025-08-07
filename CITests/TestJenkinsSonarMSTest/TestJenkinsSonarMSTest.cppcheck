@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="1">
+    <root name="D:/HOME/DELTA/CITests/TestJenkinsSonarMSTest"/>
+    <paths>
+        <dir name="D:/HOME/DELTA/CITests/TestJenkinsSonarMSTest/CppLib"/>
+    </paths>
+    <libraries>
+        <library>microsoft_sal</library>
+        <library>windows</library>
+    </libraries>
+</project>

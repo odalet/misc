@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<countries>
+  <!-- Note: because of the way this file is generated from an Excel sheet, some entries may be completely empty. -->
+  <country name="Andorra" name-alt="" alpha2="AD" domain=".ad" />
+  <country name="United Arab Emirates" name-alt="" alpha2="AE" domain=".ae" />
+  <country name="Afghanistan" name-alt="" alpha2="AF" domain=".af" />
+  <country name="Antigua and Barbuda" name-alt="" alpha2="AG" domain=".ag" />
+  <country name="Anguilla" name-alt="" alpha2="AI" domain=".ai" />
+  <country name="Albania" name-alt="" alpha2="AL" domain=".al" />
+  <country name="Armenia" name-alt="" alpha2="AM" domain=".am" />
+  <country name="Angola" name-alt="" alpha2="AO" domain=".ao" />
+  <country name="Antarctica" name-alt="" alpha2="AQ" domain=".aq" />
+  <country name="" name-alt="" alpha2="" domain="" />
+  <country name="Argentina" name-alt="" alpha2="AR" domain=".ar" />
+  <country name="American Samoa" name-alt="" alpha2="AS" domain=".as" />
+  <country name="Austria" name-alt="" alpha2="AT" domain=".at" />
+  <country name="Australia" name-alt="" alpha2="AU" domain=".au" />
+  <country name="Aruba" name-alt="" alpha2="AW" domain=".aw" />
+  <country name="Åland Islands" name-alt="" alpha2="AX" domain=".ax" />
+  <country name="Azerbaijan" name-alt="" alpha2="AZ" domain=".az" />
+  <country name="Bosnia and Herzegovina" name-alt="" alpha2="BA" domain=".ba" />
+  <country name="Barbados" name-alt="" alpha2="BB" domain=".bb" />
+  <country name="Bangladesh" name-alt="" alpha2="BD" domain=".bd" />
+  <country name="Belgium" name-alt="" alpha2="BE" domain=".be" />
+  <country name="Burkina Faso" name-alt="" alpha2="BF" domain=".bf" />
+  <country name="Bulgaria" name-alt="" alpha2="BG" domain=".bg" />
+  <country name="Bahrain" name-alt="" alpha2="BH" domain=".bh" />
+  <country name="Burundi" name-alt="" alpha2="BI" domain=".bi" />
+  <country name="Benin" name-alt="" alpha2="BJ" domain=".bj" />
+  <country name="Saint Barthélemy" name-alt="" alpha2="BL" domain=".bl" />
+  <country name="Bermuda" name-alt="" alpha2="BM" domain=".bm" />
+  <country name="Brunei Darussalam" name-alt="" alpha2="BN" domain=".bn" />
+  <country name="Bolivia, Plurinational State of" name-alt="Bolivia" alpha2="BO" domain=".bo" />
+  <country name="Bonaire, Sint Eustatius and Saba" name-alt="Bonaire" alpha2="BQ" domain=".bq" />
+  <country name="" name-alt="" alpha2="" domain="" />
+  <country name="" name-alt="" alpha2="" domain="" />
+  <country name="Brazil" name-alt="" alpha2="BR" domain=".br" />
+  <country name="Bahamas" name-alt="" alpha2="BS" domain=".bs" />
+  <country name="Bhutan" name-alt="" alpha2="BT" domain=".bt" />
+  <country name="Bouvet Island" name-alt="" alpha2="BV" domain=".bv" />
+  <country name="Botswana" name-alt="" alpha2="BW" domain=".bw" />
+  <country name="Belarus" name-alt="" alpha2="BY" domain=".by" />
+  <country name="" name-alt="" alpha2="" domain="" />
+  <country name="Belize" name-alt="" alpha2="BZ" domain=".bz" />
+  <country name="Canada" name-alt="" alpha2="CA" domain=".ca" />
+  <country name="Cocos (Keeling) Islands" name-alt="Cocos Islands" alpha2="CC" domain=".cc" />
+  <country name="Congo, the Democratic Republic of the" name-alt="Democratic Republic of the Congo" alpha2="CD" domain=".cd" />
+  <country name="Central African Republic" name-alt="" alpha2="CF" domain=".cf" />
+  <country name="Congo" name-alt="" alpha2="CG" domain=".cg" />
+  <country name="Switzerland" name-alt="" alpha2="CH" domain=".ch" />
+  <country name="Côte d'Ivoire" name-alt="" alpha2="CI" domain=".ci" />
+  <country name="Cook Islands" name-alt="" alpha2="CK" domain=".ck" />
+  <country name="Chile" name-alt="" alpha2="CL" domain=".cl" />
+  <country name="Cameroon" name-alt="" alpha2="CM" domain=".cm" />
+  <country name="China" name-alt="" alpha2="CN" domain=".cn" />
+  <country name="Colombia" name-alt="" alpha2="CO" domain=".co" />
+  <country name="Costa Rica" name-alt="" alpha2="CR" domain=".cr" />
+  <country name="Cuba" name-alt="" alpha2="CU" domain=".cu" />
+  <country name="Cabo Verde" name-alt="" alpha2="CV" domain=".cv" />
+  <country name="Curaçao" name-alt="" alpha2="CW" domain=".cw" />
+  <country name="Christmas Island" name-alt="" alpha2="CX" domain=".cx" />
+  <country name="Cyprus" name-alt="" alpha2="CY" domain=".cy" />
+  <country name="Czech Republic" name-alt="" alpha2="CZ" domain=".cz" />
+  <country name="Germany" name-alt="" alpha2="DE" domain=".de" />
+  <country name="" name-alt="" alpha2="" domain="" />
+  <country name="Djibouti" name-alt="" alpha2="DJ" domain=".dj" />
+  <country name="Denmark" name-alt="" alpha2="DK" domain=".dk" />
+  <country name="Dominica" name-alt="" alpha2="DM" domain=".dm" />
+  <country name="Dominican Republic" name-alt="" alpha2="DO" domain=".do" />
+  <country name="Algeria" name-alt="" alpha2="DZ" domain=".dz" />
+  <country name="Ecuador" name-alt="" alpha2="EC" domain=".ec" />
+  <country name="Estonia" name-alt="" alpha2="EE" domain=".ee" />
+  <country name="Egypt" name-alt="" alpha2="EG" domain=".eg" />
+  <country name="Western Sahara" name-alt="" alpha2="EH" domain=".eh" />
+  <country name="Eritrea" name-alt="" alpha2="ER" domain=".er" />
+  <country name="Spain" name-alt="" alpha2="ES" domain=".es" />
+  <country name="Ethiopia" name-alt="" alpha2="ET" domain=".et" />
+  <country name="Finland" name-alt="" alpha2="FI" domain=".fi" />
+  <country name="Fiji" name-alt="" alpha2="FJ" domain=".fj" />
+  <country name="Falkland Islands (Malvinas)" name-alt="Falkland Islands" alpha2="FK" domain=".fk" />
+  <country name="Micronesia, Federated States of" name-alt="Micronesia" alpha2="FM" domain=".fm" />
+  <country name="Faroe Islands" name-alt="" alpha2="FO" domain=".fo" />
+  <country name="France" name-alt="" alpha2="FR" domain=".fr" />
+  <country name="Gabon" name-alt="" alpha2="GA" domain=".ga" />
+  <country name="United Kingdom" name-alt="" alpha2="GB" domain=".gb" />
+  <country name="" name-alt="" alpha2="" domain="(.uk)" />
+  <country name="Grenada" name-alt="" alpha2="GD" domain=".gd" />
+  <country name="Georgia" name-alt="" alpha2="GE" domain=".ge" />
+  <country name="French Guiana" name-alt="" alpha2="GF" domain=".gf" />
+  <country name="Guernsey" name-alt="" alpha2="GG" domain=".gg" />
+  <country name="Ghana" name-alt="" alpha2="GH" domain=".gh" />
+  <country name="Gibraltar" name-alt="" alpha2="GI" domain=".gi" />
+  <country name="Greenland" name-alt="" alpha2="GL" domain=".gl" />
+  <country name="Gambia" name-alt="" alpha2="GM" domain=".gm" />
+  <country name="Guinea" name-alt="" alpha2="GN" domain=".gn" />
+  <country name="Guadeloupe" name-alt="" alpha2="GP" domain=".gp" />
+  <country name="Equatorial Guinea" name-alt="" alpha2="GQ" domain=".gq" />
+  <country name="Greece" name-alt="" alpha2="GR" domain=".gr" />
+  <country name="South Georgia and the South Sandwich Islands" name-alt="" alpha2="GS" domain=".gs" />
+  <country name="Guatemala" name-alt="" alpha2="GT" domain=".gt" />
+  <country name="Guam" name-alt="" alpha2="GU" domain=".gu" />
+  <country name="Guinea-Bissau" name-alt="" alpha2="GW" domain=".gw" />
+  <country name="Guyana" name-alt="" alpha2="GY" domain=".gy" />
+  <country name="Hong Kong" name-alt="" alpha2="HK" domain=".hk" />
+  <country name="Heard Island and McDonald Islands" name-alt="" alpha2="HM" domain=".hm" />
+  <country name="Honduras" name-alt="" alpha2="HN" domain=".hn" />
+  <country name="Croatia" name-alt="" alpha2="HR" domain=".hr" />
+  <country name="Haiti" name-alt="" alpha2="HT" domain=".ht" />
+  <country name="Hungary" name-alt="" alpha2="HU" domain=".hu" />
+  <country name="Indonesia" name-alt="" alpha2="ID" domain=".id" />
+  <country name="Ireland" name-alt="" alpha2="IE" domain=".ie" />
+  <country name="Israel" name-alt="" alpha2="IL" domain=".il" />
+  <country name="Isle of Man" name-alt="" alpha2="IM" domain=".im" />
+  <country name="India" name-alt="" alpha2="IN" domain=".in" />
+  <country name="British Indian Ocean Territory" name-alt="" alpha2="IO" domain=".io" />
+  <country name="Iraq" name-alt="" alpha2="IQ" domain=".iq" />
+  <country name="Iran, Islamic Republic of" name-alt="Iran" alpha2="IR" domain=".ir" />
+  <country name="Iceland" name-alt="" alpha2="IS" domain=".is" />
+  <country name="Italy" name-alt="" alpha2="IT" domain=".it" />
+  <country name="Jersey" name-alt="" alpha2="JE" domain=".je" />
+  <country name="Jamaica" name-alt="" alpha2="JM" domain=".jm" />
+  <country name="Jordan" name-alt="" alpha2="JO" domain=".jo" />
+  <country name="Japan" name-alt="" alpha2="JP" domain=".jp" />
+  <country name="Kenya" name-alt="" alpha2="KE" domain=".ke" />
+  <country name="Kyrgyzstan" name-alt="" alpha2="KG" domain=".kg" />
+  <country name="Cambodia" name-alt="" alpha2="KH" domain=".kh" />
+  <country name="" name-alt="" alpha2="" domain="" />
+  <country name="Kiribati" name-alt="" alpha2="KI" domain=".ki" />
+  <country name="Comoros" name-alt="" alpha2="KM" domain=".km" />
+  <country name="Saint Kitts and Nevis" name-alt="" alpha2="KN" domain=".kn" />
+  <country name="Korea, Democratic People's Republic of" name-alt="North Korea" alpha2="KP" domain=".kp" />
+  <country name="Korea, Republic of" name-alt="South Korea" alpha2="KR" domain=".kr" />
+  <country name="Kuwait" name-alt="" alpha2="KW" domain=".kw" />
+  <country name="Cayman Islands" name-alt="" alpha2="KY" domain=".ky" />
+  <country name="Kazakhstan" name-alt="" alpha2="KZ" domain=".kz" />
+  <country name="Lao People's Democratic Republic" name-alt="Laos" alpha2="LA" domain=".la" />
+  <country name="Lebanon" name-alt="" alpha2="LB" domain=".lb" />
+  <country name="Saint Lucia" name-alt="" alpha2="LC" domain=".lc" />
+  <country name="Liechtenstein" name-alt="" alpha2="LI" domain=".li" />
+  <country name="Sri Lanka" name-alt="" alpha2="LK" domain=".lk" />
+  <country name="Liberia" name-alt="" alpha2="LR" domain=".lr" />
+  <country name="Lesotho" name-alt="" alpha2="LS" domain=".ls" />
+  <country name="Lithuania" name-alt="" alpha2="LT" domain=".lt" />
+  <country name="Luxembourg" name-alt="" alpha2="LU" domain=".lu" />
+  <country name="Latvia" name-alt="" alpha2="LV" domain=".lv" />
+  <country name="Libya" name-alt="" alpha2="LY" domain=".ly" />
+  <country name="Morocco" name-alt="" alpha2="MA" domain=".ma" />
+  <country name="Monaco" name-alt="" alpha2="MC" domain=".mc" />
+  <country name="Moldova, Republic of" name-alt="Moldova" alpha2="MD" domain=".md" />
+  <country name="Montenegro" name-alt="" alpha2="ME" domain=".me" />
+  <country name="Saint Martin (French part)" name-alt="Saint Martin" alpha2="MF" domain=".mf" />
+  <country name="Madagascar" name-alt="" alpha2="MG" domain=".mg" />
+  <country name="Marshall Islands" name-alt="" alpha2="MH" domain=".mh" />
+  <country name="Macedonia, the former Yugoslav Republic of" name-alt="Macedonia" alpha2="MK" domain=".mk" />
+  <country name="" name-alt="" alpha2="" domain="" />
+  <country name="Mali" name-alt="" alpha2="ML" domain=".ml" />
+  <country name="Myanmar" name-alt="" alpha2="MM" domain=".mm" />
+  <country name="Mongolia" name-alt="" alpha2="MN" domain=".mn" />
+  <country name="Macao" name-alt="" alpha2="MO" domain=".mo" />
+  <country name="Northern Mariana Islands" name-alt="" alpha2="MP" domain=".mp" />
+  <country name="Martinique" name-alt="" alpha2="MQ" domain=".mq" />
+  <country name="Mauritania" name-alt="" alpha2="MR" domain=".mr" />
+  <country name="Montserrat" name-alt="" alpha2="MS" domain=".ms" />
+  <country name="Malta" name-alt="" alpha2="MT" domain=".mt" />
+  <country name="Mauritius" name-alt="" alpha2="MU" domain=".mu" />
+  <country name="Maldives" name-alt="" alpha2="MV" domain=".mv" />
+  <country name="Malawi" name-alt="" alpha2="MW" domain=".mw" />
+  <country name="Mexico" name-alt="" alpha2="MX" domain=".mx" />
+  <country name="Malaysia" name-alt="" alpha2="MY" domain=".my" />
+  <country name="Mozambique" name-alt="" alpha2="MZ" domain=".mz" />
+  <country name="Namibia" name-alt="" alpha2="NA" domain=".na" />
+  <country name="New Caledonia" name-alt="" alpha2="NC" domain=".nc" />
+  <country name="Niger" name-alt="" alpha2="NE" domain=".ne" />
+  <country name="Norfolk Island" name-alt="" alpha2="NF" domain=".nf" />
+  <country name="Nigeria" name-alt="" alpha2="NG" domain=".ng" />
+  <country name="Nicaragua" name-alt="" alpha2="NI" domain=".ni" />
+  <country name="Netherlands" name-alt="" alpha2="NL" domain=".nl" />
+  <country name="Norway" name-alt="" alpha2="NO" domain=".no" />
+  <country name="Nepal" name-alt="" alpha2="NP" domain=".np" />
+  <country name="Nauru" name-alt="" alpha2="NR" domain=".nr" />
+  <country name="Niue" name-alt="" alpha2="NU" domain=".nu" />
+  <country name="New Zealand" name-alt="" alpha2="NZ" domain=".nz" />
+  <country name="Oman" name-alt="" alpha2="OM" domain=".om" />
+  <country name="Panama" name-alt="" alpha2="PA" domain=".pa" />
+  <country name="Peru" name-alt="" alpha2="PE" domain=".pe" />
+  <country name="French Polynesia" name-alt="" alpha2="PF" domain=".pf" />
+  <country name="Papua New Guinea" name-alt="" alpha2="PG" domain=".pg" />
+  <country name="Philippines" name-alt="" alpha2="PH" domain=".ph" />
+  <country name="Pakistan" name-alt="" alpha2="PK" domain=".pk" />
+  <country name="Poland" name-alt="" alpha2="PL" domain=".pl" />
+  <country name="Saint Pierre and Miquelon" name-alt="" alpha2="PM" domain=".pm" />
+  <country name="Pitcairn" name-alt="" alpha2="PN" domain=".pn" />
+  <country name="Puerto Rico" name-alt="" alpha2="PR" domain=".pr" />
+  <country name="Palestine, State of" name-alt="Palestine" alpha2="PS" domain=".ps" />
+  <country name="" name-alt="" alpha2="" domain="" />
+  <country name="Portugal" name-alt="" alpha2="PT" domain=".pt" />
+  <country name="Palau" name-alt="" alpha2="PW" domain=".pw" />
+  <country name="Paraguay" name-alt="" alpha2="PY" domain=".py" />
+  <country name="Qatar" name-alt="" alpha2="QA" domain=".qa" />
+  <country name="Réunion" name-alt="" alpha2="RE" domain=".re" />
+  <country name="Romania" name-alt="" alpha2="RO" domain=".ro" />
+  <country name="Serbia" name-alt="" alpha2="RS" domain=".rs" />
+  <country name="Russian Federation" name-alt="" alpha2="RU" domain=".ru" />
+  <country name="Rwanda" name-alt="" alpha2="RW" domain=".rw" />
+  <country name="Saudi Arabia" name-alt="" alpha2="SA" domain=".sa" />
+  <country name="Solomon Islands" name-alt="" alpha2="SB" domain=".sb" />
+  <country name="Seychelles" name-alt="" alpha2="SC" domain=".sc" />
+  <country name="Sudan" name-alt="" alpha2="SD" domain=".sd" />
+  <country name="Sweden" name-alt="" alpha2="SE" domain=".se" />
+  <country name="Singapore" name-alt="" alpha2="SG" domain=".sg" />
+  <country name="Saint Helena, Ascension and Tristan da Cunha" name-alt="" alpha2="SH" domain=".sh" />
+  <country name="Slovenia" name-alt="" alpha2="SI" domain=".si" />
+  <country name="Svalbard and Jan Mayen" name-alt="" alpha2="SJ" domain=".sj" />
+  <country name="Slovakia" name-alt="" alpha2="SK" domain=".sk" />
+  <country name="Sierra Leone" name-alt="" alpha2="SL" domain=".sl" />
+  <country name="San Marino" name-alt="" alpha2="SM" domain=".sm" />
+  <country name="Senegal" name-alt="" alpha2="SN" domain=".sn" />
+  <country name="Somalia" name-alt="" alpha2="SO" domain=".so" />
+  <country name="Suriname" name-alt="" alpha2="SR" domain=".sr" />
+  <country name="South Sudan" name-alt="" alpha2="SS" domain=".ss" />
+  <country name="Sao Tome and Principe" name-alt="" alpha2="ST" domain=".st" />
+  <country name="El Salvador" name-alt="" alpha2="SV" domain=".sv" />
+  <country name="Sint Maarten (Dutch part)" name-alt="Sint Maarten" alpha2="SX" domain=".sx" />
+  <country name="Syrian Arab Republic" name-alt="Syria" alpha2="SY" domain=".sy" />
+  <country name="Swaziland" name-alt="" alpha2="SZ" domain=".sz" />
+  <country name="Turks and Caicos Islands" name-alt="" alpha2="TC" domain=".tc" />
+  <country name="Chad" name-alt="" alpha2="TD" domain=".td" />
+  <country name="French Southern Territories" name-alt="" alpha2="TF" domain=".tf" />
+  <country name="" name-alt="" alpha2="" domain="" />
+  <country name="Togo" name-alt="" alpha2="TG" domain=".tg" />
+  <country name="Thailand" name-alt="" alpha2="TH" domain=".th" />
+  <country name="Tajikistan" name-alt="" alpha2="TJ" domain=".tj" />
+  <country name="Tokelau" name-alt="" alpha2="TK" domain=".tk" />
+  <country name="Timor-Leste" name-alt="East Timor" alpha2="TL" domain=".tl" />
+  <country name="Turkmenistan" name-alt="" alpha2="TM" domain=".tm" />
+  <country name="Tunisia" name-alt="" alpha2="TN" domain=".tn" />
+  <country name="Tonga" name-alt="" alpha2="TO" domain=".to" />
+  <country name="Turkey" name-alt="" alpha2="TR" domain=".tr" />
+  <country name="Trinidad and Tobago" name-alt="" alpha2="TT" domain=".tt" />
+  <country name="Tuvalu" name-alt="" alpha2="TV" domain=".tv" />
+  <country name="Taiwan, Province of China" name-alt="Taiwan" alpha2="TW" domain=".tw" />
+  <country name="" name-alt="" alpha2="" domain="" />
+  <country name="Tanzania, United Republic of" name-alt="Tanzania" alpha2="TZ" domain=".tz" />
+  <country name="Ukraine" name-alt="" alpha2="UA" domain=".ua" />
+  <country name="" name-alt="" alpha2="" domain="" />
+  <country name="Uganda" name-alt="" alpha2="UG" domain=".ug" />
+  <country name="United States Minor Outlying Islands" name-alt="" alpha2="UM" domain=".um" />
+  <country name="United States" name-alt="" alpha2="US" domain=".us" />
+  <country name="Uruguay" name-alt="" alpha2="UY" domain=".uy" />
+  <country name="Uzbekistan" name-alt="" alpha2="UZ" domain=".uz" />
+  <country name="Holy See (Vatican City State)" name-alt="Vatican" alpha2="VA" domain=".va" />
+  <country name="" name-alt="" alpha2="" domain="" />
+  <country name="Saint Vincent and the Grenadines" name-alt="" alpha2="VC" domain=".vc" />
+  <country name="Venezuela, Bolivarian Republic of" name-alt="Venezuela" alpha2="VE" domain=".ve" />
+  <country name="Virgin Islands, British" name-alt="" alpha2="VG" domain=".vg" />
+  <country name="Virgin Islands, U.S." name-alt="" alpha2="VI" domain=".vi" />
+  <country name="Viet Nam" name-alt="" alpha2="VN" domain=".vn" />
+  <country name="Vanuatu" name-alt="" alpha2="VU" domain=".vu" />
+  <country name="Wallis and Futuna" name-alt="" alpha2="WF" domain=".wf" />
+  <country name="Samoa" name-alt="" alpha2="WS" domain=".ws" />
+  <country name="Yemen" name-alt="" alpha2="YE" domain=".ye" />
+  <country name="" name-alt="" alpha2="" domain="" />
+  <country name="Mayotte" name-alt="" alpha2="YT" domain=".yt" />
+  <country name="South Africa" name-alt="" alpha2="ZA" domain=".za" />
+  <country name="Zambia" name-alt="" alpha2="ZM" domain=".zm" />
+  <country name="Zimbabwe" name-alt="" alpha2="ZW" domain=".zw" />
+</countries>

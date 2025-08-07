@@ -1,0 +1,404 @@
+
+@@!1!@
+Commandes de l'Editeur
+
+Commandes de d‚placement du curseur
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+ORIGINE       - Au d‚but de la ligne en cours.
+FIN           - A la fin de la ligne en cours.
+CTRL+HAUT     - Ligne pr‚c‚dente.
+CTRL+BAS      - Ligne suivante.
+PG.PREC       - Un ‚cran vers le haut.
+PG.SUIV       - Un ‚cran vers le bas.
+CTRL+PG.PREC  - Un ‚cran vers la gauche.
+CTRL+PG.SUIV  - Un ‚cran vers la droite.
+CTRL+ORIGINE  - D‚but du document.
+CTRL+FIN      - Fin du document.
+CTRL+GAUCHE   - Un mot vers la gauche.
+CTRL+DROITE   - Un mot vers la droite.
+
+Commandes de modification du texte
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+ENTREE      - Ajout d'une nouvelle ligne.
+SUPPR       - Suppression du caractŠre … l'emplacement du 
+              curseur.
+RET.ARR     - Suppression des caractŠres … gauche du curseur.
+TAB         - D‚placement du curseur au taquet de tabulation 
+              suivant.
+INSER       - Bascule entre les modes insertion et remplacement.
+CTRL+Y      - Suppression de la ligne en cours.
+CTRL+V      - Collage du contenu du tampon dans le fichier.
+CTRL+P      - Insertion d'un caractŠre sp‚cial.
+
+Commandes de s‚lection
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+MAJ        - Utilisation de la touche MAJ conjointement avec 
+             les fonctions de d‚placement du curseur pour 
+             s‚lectionner du texte.
+CTRL+C     - Copie du texte s‚lectionn‚ dans le tampon.
+CTRL+X     - Suppression du texte s‚lectionn‚ et copie de 
+             celui-ci dans le tampon.
+SUPPR      - Suppression du texte s‚lectionn‚.
+TAB        - Mise en retrait des lignes s‚lectionn‚es.
+MAJ+TAB    - Suppression du retrait des lignes s‚lectionn‚es.
+
+Commandes de recherche et de remplacement de texte
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+CTRL+Q+F   - Recherche du texte.
+CTRL+Q+A   - Recherche et remplacement du texte.
+F3         - R‚p‚tition de la derniŠre recherche.
+
+Commandes de gestion des fenˆtres
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+F6         - Bascule vers la fenˆtre d'‚dition suivante.
+F8         - Bascule vers le fichier de travail suivant.
+CTRL+F6    - Ouverture d'une deuxiŠme fenˆtre d'‚dition.
+CTRL+F4    - Fermeture de la deuxiŠme fenˆtre d'‚dition.
+CTRL+F8    - Redimensionnement de la fenˆtre d'‚dition.
+
+Autres commandes
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+F1         - Affichage de l'aide contextuelle.
+
+La plupart des touches de raccourci utilis‚es dans les versions 
+pr‚c‚dentes de l'Editeur MS-DOS peuvent ‚galement ˆtre utilis‚es.
+@@!3!@
+Chercher
+
+Recherche du texte dans un fichier.
+
+ Pour rechercher du texte qui constitue un mot entier et non 
+  une partie de mot, cliquez sur Mot entier.
+ Pour rechercher du texte comportant la mˆme combinaison de 
+  majuscules et de minuscules que le texte sp‚cifi‚, cliquez 
+  sur Diff‚rencier Majuscules/minuscules.
+ Vous pouvez appuyer … tout moment sur ECHAP pour annuler la 
+  recherche.
+@@!4!@
+Remplacer
+
+Recherche le texte sp‚cifi‚ et le remplace par le nouveau texte.
+ Pour confirmer chaque remplacement, cliquez sur le bouton 
+  Remplacer.
+ Pour remplacer simultan‚ment toutes les occurrences du texte 
+  recherch‚, cliquez sur le bouton Tout remplacer.
+ Pour rechercher du texte qui constitue un mot entier et non 
+  une partie de mot, cliquez sur Mot entier.
+ Pour rechercher du texte comportant la mˆme combinaison de
+  majuscules et de minuscules que le texte sp‚cifi‚, cliquez 
+  sur Diff‚rencier Majuscules/minuscules.
+La premiŠre occurrence du texte est s‚lectionn‚e, et une boŒte 
+de dialogue s'affiche, vous demandant de remplacer cette 
+occurrence ou de l'ignorer sans la remplacer, ou encore 
+d'annuler la recherche. Vous pouvez ‚galement appuyer … tout 
+moment sur ECHAP pour annuler cette op‚ration.
+@@!5!@
+Fichier Ouvrir
+
+Ouvre un fichier existant ou cr‚e un nouveau fichier nomm‚.
+
+ Vous pouvez utiliser les zones Fichiers et R‚pertoires pour
+  s‚lectionner le chemin d'accŠs du fichier. Il vous est 
+  ‚galement possible de taper le chemin d'accŠs dans la zone 
+  Nom fich.
+ Si le fichier n'existe pas, le systŠme cr‚e un nouveau 
+  fichier vide dans le chemin d'accŠs indiqu‚.
+ Pour ouvrir le fichier en mode lecture seule, activez la case 
+  … cocher Lecture seule.
+ Pour ouvrir le fichier en mode binaire, activez la case … 
+  cocher Fichier bin. Tapez ensuite la largeur de ligne d‚sir‚e 
+  dans la zone Largeur lig en-dessous de la case … cocher
+  Fichier bin.
+@@!6!@
+Fichier Enregistrer sous
+
+Enregistre et nomme le fichier sur lequel vous travaillez.
+
+ Utilisez cette commande pour nommer un nouveau fichier sans 
+  nom, ou pour renommer un fichier existant. Utilisez la 
+  commande Fichier Enregistrer pour enregistrer un fichier
+  existant sans le renommer.
+
+ Tapez le nouveau chemin d'accŠs dans la zone Nom fich. Vous
+  pouvez ‚galement utiliser les zones R‚pertoires et Fichiers 
+  existants pour s‚lectionner plus facilement un autre nom de 
+  fichier, r‚pertoire ou lecteur.
+
+ S'il existe d‚j… un fichier portant le nom choisi, L'Editeur 
+  vous demande de confirmer le remplacement de l'ancien fichier 
+  par le nouveau du mˆme nom.
+@@!8!@
+Imprimer
+
+Imprime les fichiers s‚lectionn‚s sur lesquels vous travaillez.
+
+ Pour n'imprimer qu'une partie du fichier, s‚lectionnez le 
+  texte que vous souhaitez imprimer. Dans la boŒte de dialogue 
+  Imprimer, cliquez sur Texte s‚lectionn‚.
+
+ Pour imprimer l'int‚gralit‚ du fichier, cliquez sur Document 
+  complet.
+@@!9!@
+Couleurs
+
+D‚finit la couleur des ‚l‚ments de l'‚cran.
+
+1. Dans la liste El‚ment, cliquez sur l'‚l‚ment que vous 
+   souhaitez modifier.
+
+2. Dans la liste Plan avant, cliquez sur la couleur que vous
+   souhaitez attribuer … l'‚l‚ment.
+
+3. Dans la liste Fond ‚cran, cliquez sur la couleur choisie 
+   pour le fond de l'‚cran.
+
+Conseil:
+ Pour restaurer les couleurs d'origine, cliquez sur D‚faut.
+  Cette action a pour effet d'annuler toutes les modifications 
+  effectu‚es.
+@@!10!@
+ParamŠtres
+
+D‚finit les paramŠtres de l'Editeur.
+
+ Utilisez Tabulation pour d‚finir le nombre de taquets de 
+  tabulation souhait‚ par ligne.
+ Utilisez Imprimer sur pour indiquer le port auquel votre 
+  imprimante est connect‚e.
+@@!101!@
+Fichier Nouveau
+
+Cr‚e un nouveau fichier.
+
+Lorsque vous enregistrez ce fichier, le systŠme vous demande de 
+sp‚cifier le nom et le chemin d'accŠs souhait‚ pour ce fichier.
+
+Utilisez la commande Fichier Ouvrir pour ouvrir un fichier 
+existant.
+@@!102!@
+Fichier Ouvrir
+
+Ouvre un fichier existant ou cr‚e un nouveau fichier nomm‚. 
+Il vous est possible de garder simultan‚ment jusqu'… 9 fichiers 
+en m‚moire.
+@@!103!@
+Fichier Fermer
+
+Ferme le fichier en cours affich‚ … l'‚cran.
+
+Si vous avez modifi‚ le fichier depuis son dernier 
+enregistrement, le systŠme vous propose de l'enregistrer … 
+nouveau.  
+@@!104!@
+Fichier Enregistrer
+
+Enregistre le fichier en cours affich‚ … l'‚cran.
+
+Si le fichier n'a pas encore ‚t‚ nomm‚, le systŠme vous demande 
+un nom et le chemin d'accŠs du r‚pertoire dans lequel vous 
+souhaitez l'enregistrer. S'il existe d‚j… un fichier du mˆme 
+nom, le systŠme vous demande si vous voulez l'‚craser pour le 
+remplacer par le nouveau fichier.
+@@!105!@
+Fichier Enregistrer sous
+
+Enregistre le fichier affich‚ … l'‚cran sous un nom diff‚rent 
+ou vous permet de nommer un nouveau fichier qui n'a pas encore 
+de nom.
+
+S'il existe d‚j… un fichier du mˆme nom que celui que vous 
+souhaitez enregistrer, le systŠme vous demande de confirmer 
+son remplacement par le nouveau fichier.
+
+Vous pouvez ‚galement utiliser cette commande pour enregistrer 
+un fichier ouvert en lecture seule sous un nom diff‚rent.  
+Une fois cet enregistrement effectu‚, le fichier est disponible 
+en accŠs complet.
+@@!106!@
+Fichier Imprimer
+
+Envoie les donn‚es du fichier en cours … l'imprimante.
+
+Vous pouvez choisir d'imprimer le fichier entier ou uniquement 
+la partie s‚lectionn‚e.
+@@!107!@
+Fichier Quitter
+
+Vous permet de quitter l'Editeur.
+
+Si vous avez modifi‚ des fichiers depuis leur dernier 
+enregistrement, le systŠme vous demande, pour chacun d'eux, 
+si vous souhaitez les enregistrer. Cliquez sur Oui pour 
+enregistrer le fichier, sur Non pour ignorer les modifications, 
+ou sur Annuler pour continuer … modifier le fichier.
+@@!112!@
+Edition Couper
+
+Supprime le texte s‚lectionn‚ et le copie dans le tampon de 
+l'Editeur.
+
+Le tampon de l'Editeur est une zone d'enregistrement temporaire 
+propre … l'Editeur et distincte du Presse-papiers de Windows.
+
+La combinaison de touches MAJ+SUPPR peut ‚galement vous servir 
+… couper du texte.
+@@!113!@
+Edition Copier
+
+Copie le texte s‚lectionn‚ pour l'ins‚rer dans le tampon de 
+l'Editeur.
+
+La combinaison de touches CTRL+INS peut ‚galement vous servir 
+… coller du texte.
+@@!114!@
+Edition Coller
+
+Colle l'‚ventuel contenu du tampon … l'emplacement du curseur.
+
+Vous pouvez ‚galement utiliser la combinaison de touches 
+MAJ+INS pour coller du texte.
+Il est possible de coller plusieurs fois le mˆme texte.
+@@!115!@
+Edition Effacer
+
+Supprime le texte s‚lectionn‚ sans le copier dans le tampon.
+@@!121!@
+Chercher
+
+Recherche et met en surbrillance dans un fichier charg‚ la 
+chaŒne de caractŠres indiqu‚e.
+@@!122!@
+Poursuivre la recherche
+
+Recherche l'occurrence suivante du texte sur lequel porte la 
+recherche. Fait d‚marrer la recherche … partir de l'emplacement 
+de l'occurrence pr‚c‚dente.
+@@!123!@
+Remplacer
+
+Recherche le texte et le remplace par le nouveau texte sp‚cifi‚.
+@@!131!@
+S‚parer fenˆtre
+
+Ouvre une deuxiŠme fenˆtre d'‚dition. Il est ‚galement possible 
+d'ouvrir une nouvelle fenˆtre en faisant glisser vers le bas la 
+barre de titre … l'aide de la souris.
+
+Vous pouvez utiliser deux fenˆtre pour modifier le mˆme fichier 
+ou deux fichiers diff‚rents. Si vous modifiez un document 
+affich‚ dans deux fenˆtres, toute modification effectu‚e dans 
+l'une des fenˆtres est r‚percut‚e dans l'autre.
+@@!132!@
+Dimensionner fenˆtre
+
+Redimensionne les fenˆtres d'‚dition lorsque deux fenˆtres sont 
+ouvertes.
+
+Utilisez les touches de direction HAUT et BAS pour augmenter ou 
+r‚duire la taille des fenˆtres.
+Appuyez sur ENTREE pour valider la nouvelle taille de la 
+fenˆtre, ou sur ECHAP pour l'annuler.
+
+Vous pouvez ‚galement modifier la taille des fenˆtres
+en faisant glisser la barre de titre de la fenˆtre du bas … 
+l'aide de la souris.
+@@!133!@
+Fermer Fenˆtre
+
+Ferme la fenˆtre d'‚dition en cours lorsque deux fenˆtres sont 
+ouvertes en mˆme temps.
+
+Utilisez la souris ou la touche F6 pour placer le curseur dans 
+la fenˆtre que vous souhaitez fermer. Cliquez ensuite sur cette 
+option du menu pour fermer cette fenˆtre.
+
+Vous pouvez ‚galement utiliser la souris pour fermer une 
+fenˆtre. Faites simplement glisser la barre de titre inf‚rieure 
+jusqu'en haut de l'‚cran pour fermer la fenˆtre du haut;
+de mˆme, refaites-la glisser jusqu'en bas de l'‚cran pour 
+fermer la fenˆtre du bas.
+@@!134!@
+Affichage Fichier
+
+S‚lectionne un fichier charg‚ pour vous permettre de le 
+modifier.
+
+Cliquez sur le nom du fichier que vous souhaitez afficher.
+
+Vous pouvez ‚galement utiliser les touches de raccourci 
+Alt+1...Alt+9 pour s‚lectionner un fichier, ou la touche F8 
+pour passer au fichier charg‚ suivant.
+@@!141!@
+ParamŠtres
+
+Modifie les paramŠtres de l'Editeur.
+@@!142!@
+Couleurs
+
+Modifie les couleurs de la fenˆtre d'‚dition.
+@@!152!@
+Commandes de l'Editeur
+
+Affiche la liste des commandes clavier de l'Editeur.
+@@!153!@
+A propos de l'Editeur
+
+Affiche des informations sur l'Editeur.
+@@!200!@
+Erreurs d'accŠs au fichier
+
+L'Editeur ne peut pas cr‚er le fichier sp‚cifi‚ ou y acc‚der. 
+Les raisons possibles sont les suivantes:
+
+ Vous essayez de cr‚er ou d'‚crire dans un fichier sur un 
+  lecteur param‚tr‚ en lecture seule, tel qu'un CD-ROM ou un 
+  lecteur r‚seau en lecture seule.
+ Vous essayez d'‚craser un fichier param‚tr‚ en lecture seule.
+ Vous essayez d'acc‚der … un fichier verrouill‚ par un autre 
+  utilisateur ou par un autre programme.
+ Vous essayez de lire ou d'‚crire sur un nom de r‚pertoire.
+@@!201!@
+Lecteur vide
+
+V‚rifiez qu'il y a une disquette dans le lecteur de disquette 
+et que le volet du lecteur est ferm‚.
+@@!202!@
+Erreurs disque
+
+MS-DOS ne peut pas lire ou ‚crire sur ce lecteur.
+S'il s'agit d'un lecteur CD-ROM, v‚rifiez qu'il contient un 
+CD-ROM.
+S'il s'agit d'un disque dur ou d'un lecteur de disquette, il se 
+peut que votre lecteur soit d‚fectueux. Nous vous recommandons 
+de quitter imm‚diatement l'Editeur et de r‚soudre les problŠmes. 
+Ces problŠmes peuvent avoir les origines suivantes:
+     Un secteur d‚fectueux.
+     Un lecteur … la partition et au formatage d‚fectueux.
+     Des problŠmes mat‚riels sur votre lecteur ou contr“leur.
+
+Un programme de r‚paration des lecteurs (Ex.: ScanDisk) peut 
+vous ˆtre utile pour r‚soudre votre problŠme. Vous pouvez aussi 
+souhaiter faire une copie de sauvegarde de votre disque.
+@@!203!@
+Erreurs d'impression
+
+L'Editeur n'a pas pu transmettre les donn‚es de votre fichier … 
+votre imprimante. 
+Les raisons possibles sont les suivantes:
+
+   Le p‚riph‚rique n'est connect‚ … aucune imprimante.
+   L'imprimante est ‚teinte ou d‚connect‚e.
+   L'imprimante manque de papier.
+   Le cƒble de l'imprimante est mal connect‚, voire d‚connect‚.
+@@!204!@
+Fichier ou chemin invalide
+
+L'Editeur ne peut pas acc‚der … ce fichier ou dossier. Les 
+raisons possibles sont les suivantes:
+
+   Le chemin d'accŠs est trop long ou contient des caractŠres 
+    invalides.
+   Le chemin d'accŠs sp‚cifi‚ renvoie … un dossier qui n'existe 
+    pas.
+@@!9999!@
+

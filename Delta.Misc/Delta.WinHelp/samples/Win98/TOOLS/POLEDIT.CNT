@@ -1,0 +1,12 @@
+:Base poledit.hlp>proc4
+:Title System Policy Editor Help
+:Index System Policy Editor Help=poledit.hlp
+1 Managing System Policy
+2 Setting Policy for all Computers on a Domain=POLEDIT_SET_DU_DC_FOR_DOMAIN
+2 Setting Policy for Individual Computers=POLEDIT_DOWNLOAD_SERVER
+2 Setting Group Priority=POLEDIT_SET_GROUP_PRIORITY
+1 Adding and Removing Policy Templates
+2 Adding Policy Templates=POLEDIT_ADD_ADM_TEMPLATES
+2 Removing Policy Templates=POLEDIT_REMOVE_ADM_TEMPLATES
+1 Remote Administration
+2 Modifying the Registry on a Remote Computer=POLEDIT_MOD_REG_REMOTE

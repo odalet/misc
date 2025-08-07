@@ -1,0 +1,20 @@
+:Base WSHADMIN.HLP
+:Title Windows Scripting Host Administrator's Guide
+1 Introductory Topics
+2 Introduction to this Guide=introduction
+2 About Windows Scripting Host=about
+2 Using Windows Scripting Host=wsh_using
+1 Running Scripts with Windows Scripting Host
+2 Running Scripts Using Cscript.Exe=wsh_command
+2 Command Line Example=wsh_example
+2 Running Scripts Using Wscript.Exe=wsh_wscript
+2 Running Scripts with .WSH File=running_wsh
+1 Setting Script Properties
+2 Using the Wscript.Exe Properties Page=properties
+2 About .WSH Files=about_wsh_files
+2 Creating .WSH Files=creating_wsh_files
+2 Using .WSH Files=using_wsh_files
+1 Samples and More Information
+2 About the Windows Scripting Host Sample Scripts=about_sample_scripts
+2 Extensions to the Windows Scripting Host Object Model=wsh_object_extensions
+2 Links to more information=wsh_links

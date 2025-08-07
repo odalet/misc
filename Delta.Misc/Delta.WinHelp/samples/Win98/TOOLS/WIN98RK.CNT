@@ -1,0 +1,44 @@
+:Base WIN98RK.HLP
+:Title Overview of Windows 98 Resource Kit Sampler Tools
+1 List of Sampler Utilities=sampler
+1 Glossary of Terms=glossary>glossary
+1 Introductory Topics
+2 Introduction=introduction>main
+2 Disclaimer=disclaimer>main
+2 Resource Kit information on the Internet=internet>main
+1 Resource Kit Sampler
+2 Configuration Tools
+3 CHDOSCP.EXE: Code Page Changer=chdoscp>main
+3 FAT32WIN.EXE: Fat32 Conversion Information Tool=fat32win>main
+3 TZEDIT.EXE: Time Zone Utility=tzedit>main
+2 Deployment Tools
+3 BATCH.EXE: Microsoft Batch 98=batch>main
+3 INFINST.EXE: Windows 98 Inf Installer=infinst>main
+2 Desktop Tools
+3 CHECKLINKS.EXE: Link Check Wizard=checklinks>main
+3 CLIPTRAY.EXE: Clipboard Organizer=cliptray
+3 MINITEL.TTF: Minitel Terminal Emulation Files=minitel>main
+3 QUIKTRAY.EXE: System Tray Utility=quiktray>main
+3 TWEAKUI: UI Customizing Tool=tweakui>main
+2 Diagnostic and Troubleshooting Tools
+3 FILEINFO.EXE: Microsoft File Information=fileinfo
+3 USBVIEW.EXE: USB Device Troubleshooter=usbview>main
+2 File Tools
+3 LFNBACK.EXE: Long Filename Backup Utility=lfnback>main
+3 TEXTVIEW.EXE: Text File Viewer=textview>main
+3 WHERE.EXE: File Locating Tool=where>main
+3 WINDIFF.EXE: File and Directory Comparison=windiff>main
+2 Network Administration Tools
+3 NETMON: Network Monitor Agent and Protocol Driver=netmon>main
+3 POLEDIT.EXE: System Policy Editor=poledit>main
+3 PWLEDIT.EXE: Password List Editor=pwledit>main
+3 REMOTREG:Remote Registry Service=remotreg>main
+3 RPCPP: Remote Procedure Call Print Provider=rpcpp>main
+3 SNMP Agent=snmp>main
+2 Scripting Tools
+3 TIMETHIS.EXE: Time This=timethis>main
+3 WAITFOR.EXE: Command Delay Tool=waitfor>main
+3 Windows Scripting Host Administrator's Guide=wsh>main
+3 WINSET.EXE:Environment Tool=winset>main
+2 Other Documentation
+3 Windows 98 Resource Kit book online=rk98book>main

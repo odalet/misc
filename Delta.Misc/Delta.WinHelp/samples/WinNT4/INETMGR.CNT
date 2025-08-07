@@ -1,0 +1,7 @@
+:Base inetmgr.hlp
+:Title Microsoft Internet Server
+:Index Service FTP=fscfg.hlp             ; Service Optionnel
+:Index Service Gopher=gscfg.hlp        ; Service Optionnel
+:Index Service WWW =w3scfg.hlp               ; Service Optionnel
+1 Gestionnaire des services Internet
+2 Documentation=Html_Doc_PWS

@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delta.Standards", "Delta.Standards\Delta.Standards.csproj", "{EF7E3A69-078C-4BEC-AFD2-F97E776C4A08}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{B1D4E978-F036-45D6-91C1-A6E68D6FC8BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlDefinitionsTester", "Tests\XmlDefinitionsTester\XmlDefinitionsTester.csproj", "{4F3568B7-B03A-46DA-B7D7-B3C2CCC353BD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF7E3A69-078C-4BEC-AFD2-F97E776C4A08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF7E3A69-078C-4BEC-AFD2-F97E776C4A08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF7E3A69-078C-4BEC-AFD2-F97E776C4A08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF7E3A69-078C-4BEC-AFD2-F97E776C4A08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F3568B7-B03A-46DA-B7D7-B3C2CCC353BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F3568B7-B03A-46DA-B7D7-B3C2CCC353BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F3568B7-B03A-46DA-B7D7-B3C2CCC353BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F3568B7-B03A-46DA-B7D7-B3C2CCC353BD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4F3568B7-B03A-46DA-B7D7-B3C2CCC353BD} = {B1D4E978-F036-45D6-91C1-A6E68D6FC8BC}
+	EndGlobalSection
+EndGlobal

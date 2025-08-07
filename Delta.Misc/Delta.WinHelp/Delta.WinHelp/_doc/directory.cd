@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Delta.WinHelp.Internals.BTreeHeader" Collapsed="true">
+    <Position X="9.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAFgAAAAgAAAAAEAAAAAAEAAAAAEAAAAAAEAAAAIA=</HashCode>
+      <FileName>Internals\btree.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Delta.WinHelp.Internals.BTreeIndexPage&lt;T&gt;">
+    <Position X="9.5" Y="4.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Internals\btree.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Header" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Delta.WinHelp.Internals.BTreeIndexHeader" Collapsed="true">
+    <Position X="9.5" Y="3.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Internals\btree.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Delta.WinHelp.Internals.BTreeLeafPage&lt;T&gt;">
+    <Position X="12.75" Y="4.5" Width="1.75" />
+    <AssociationLine Name="Previous" Type="Delta.WinHelp.Internals.BTreeLeafPage&lt;T&gt;" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="14.5" Y="5.125" />
+        <Point X="14.75" Y="5.125" />
+        <Point X="14.75" Y="5.5" />
+        <Point X="14.5" Y="5.5" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>BgAAAAAAAAAAAiAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Internals\btree.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Next" />
+      <Property Name="Previous" />
+      <Property Name="Header" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Delta.WinHelp.Internals.BTreeNodeHeader" Collapsed="true">
+    <Position X="12.75" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAgAACAAA=</HashCode>
+      <FileName>Internals\btree.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Delta.WinHelp.Internals.BTreeIndexEntry" Collapsed="true">
+    <Position X="9.5" Y="6.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Internals\btree.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Delta.WinHelp.Internals.BTreeLeafEntry" Collapsed="true">
+    <Position X="12.75" Y="6.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Internals\btree.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Delta.WinHelp.Internals.InternalDirectory" Collapsed="true">
+    <Position X="8.25" Y="2.5" Width="1.5" />
+    <AssociationLine Name="BTreeHeader" Type="Delta.WinHelp.Internals.BTreeHeader" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="9.75" Y="2.688" />
+        <Point X="10.406" Y="2.688" />
+        <Point X="10.406" Y="2.062" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.546" Y="0.216" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="Header" Type="Delta.WinHelp.Internals.InternalFileHeader">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.327" Y="0.279" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="LeafPages" Type="Delta.WinHelp.Internals.BTreeLeafPage&lt;T&gt;" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="9.75" Y="2.875" />
+        <Point X="12.375" Y="2.875" />
+        <Point X="12.375" Y="5.562" />
+        <Point X="12.75" Y="5.562" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="IndexPages" Type="Delta.WinHelp.Internals.BTreeIndexPage&lt;T&gt;" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="8.812" Y="3.062" />
+        <Point X="8.812" Y="5.45" />
+        <Point X="9.5" Y="5.45" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>BAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAg=</HashCode>
+      <FileName>Internals\directory.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="BTreeHeader" />
+      <Property Name="Header" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="LeafPages" />
+      <Property Name="IndexPages" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Delta.WinHelp.Internals.DirectoryIndexEntry" Collapsed="true">
+    <Position X="9.5" Y="7.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Internals\directory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Delta.WinHelp.Internals.DirectoryLeafEntry" Collapsed="true">
+    <Position X="12.75" Y="7.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Internals\directory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Delta.WinHelp.Internals.WinHelpHeader" Collapsed="true">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAIAAAAAAAAAAgQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Internals\globals.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Delta.WinHelp.Internals.InternalFileHeader" Collapsed="true">
+    <Position X="7.25" Y="1.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAAAAAAAABAAAIAAAAAAA=</HashCode>
+      <FileName>Internals\globals.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Delta.WinHelp.WinHelpDocument">
+    <Position X="5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>UAAggBIAFAAAgAAAAAAAABAAAAAAAIAAQAAAAABABIA=</HashCode>
+      <FileName>WinHelpDocument.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="DocumentHeader" />
+      <Property Name="Directory" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

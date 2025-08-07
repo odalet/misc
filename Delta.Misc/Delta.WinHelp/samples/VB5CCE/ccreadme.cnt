@@ -1,0 +1,127 @@
+:Base ccreadme.hlp>langref
+:Title Readme for Control Creation edition
+:Index ccReadMe=ccREADME.HLP
+:Link vb5.hlp
+1 Visual Basic, Control Creation Edition ReadMe
+2 Language Reference Updates
+3 Objects
+4 General Object Updates
+5 Control Class=rmobjControlClassReadMe
+5 Controls Collection  =vbcolControlsCollection@ccreadme.hlp>langref
+5 Setting Combo Box Styles at Run Time  =rmconSettingComboBoxStylesAtRunTime@ccreadme.hlp>langref
+5 UserControl object doesn't support DDE  =rmmscUserControlObjectDoesntSupportDDEDirectlyReadMe@ccreadme.hlp>langref
+4 ActiveX Control Updates
+5 ActiveX Controls that Disappear on HTML Pages  =rmmscActiveXControlsThatDisappearOnHTMLPages@ccreadme.hlp>langref
+5 CommonDialog Control Constant cdlHelpContents May Be Obsolete  =rmconCommonDialogControlConstantCdlHelpContentsMayBeObsoleteReadMe@ccreadme.hlp>langref
+5 Deleting a property with Control Interface Wizard doesn't update PropertyPage  =rmmscDeletingPropertyWithControlInterfaceWizardDoesntUpdatePropertyPage@ccreadme.hlp>langref
+5 Don't Share a Property Page Between Projects if a UserControl Is on It  =rmmscDontSharePropertyPageBetweenProjectsIfUserControlIsOnIt@ccreadme.hlp>langref
+5 IStudio/ActiveX ScriptPad Can't Change Fonts Using VB-created Font Property  =rmmscIStudioActiveXScriptPadHasProblemSavingFonts@ccreadme.hlp>langref
+5 Referencing a Private UserControl Before Form Load May Cause Error  =rmmscReferencingPrivateUserControlPriorToFormLoadCausesTypeMismatchErrorReadme@ccreadme.hlp>langref
+5 Require License Key only applies to ActiveX Control projects  =rmdlgRequireLicenseKeyDisabledOnGeneralTabReadMe@ccreadme.hlp>langref
+5 Upgrade ActiveX Controls Automatically from Project Properties Dialog  =vbdlgUpgradingActiveXControlsAmplification@ccreadme.hlp>langref
+5 UserControl containing User Forms Textbox may not work on a UserForm  =rmmscUserControlContainingUserFormsTextboxMayNotWorkOnUserFormReadMe@ccreadme.hlp>langref
+3 Properties
+4 AmbientProperties.Font clones container's ambient font  =rmmscAmbientPropertiesFontClonesContainersAmbientFontReadMe@ccreadme.hlp>langref
+4 Changing UserControl property doesn't affect compiled applications  =rmmscChangingControlToInvisibleAtRuntimeWontWorkInExistingHostsReadMe@ccreadme.hlp>langref
+4 ClassName Property  =vbproClassNameProperty@ccreadme.hlp>langref
+4 Component that uses App.PrevInstance can cause problems  =rmmscAPEComponentThatUsesAppPrevInstanceCanCauseProblemsReadMe@ccreadme.hlp>langref
+4 Don't change font on multiple controls with floating Properties window  =rmmscDontChangeFontOnMultipleControlsWithFloatingPropertiesWindowReadMe@ccreadme.hlp>langref
+4 Instancing property default varies depending on project type  =rmmscInstancingPropertyDefaultIsMultiUseForActiveXExeDLLProjects@ccreadme.hlp>langref
+4 LinkedWindows Property   =rmproLinkedWindowsProperty@ccreadme.hlp>langref
+4 MaskColor Property (UserControl Object)  =rmproNoHelpTopicForMaskColorPropertyOfUserControl@ccreadme.hlp>langref
+4 MaskPicture Property (UserControl Object)  =rmproNoHelpTopicForMaskPicturePropertyOfUserControl@ccreadme.hlp>langref
+4 MaskPicture property requires black and white bitmap in Windows 95  =rmmscMaskColorPropertyRequiresBlackWhiteBitmapInWindows95ReadMe@ccreadme.hlp>langref
+4 Palette Property - Additional Information  =rmmscPalettePropertyAdditionalInformationReadMe@ccreadme.hlp>langref
+4 Parent Property (UserControl Object)  =rmproNoHelpTopicForUserControlParent@ccreadme.hlp>langref
+4 ParentControlsType Property  =rmproNoHelpTopicForParentControlsTypePropertyOfParentControls@ccreadme.hlp>langref
+4 Properties Incorrectly Called Methods  =rmstmPropertiesIncorrectlyCalledMethods@ccreadme.hlp>langref
+4 Properties Property  =rmproPropertiesPropertyReadme@ccreadme.hlp>langref
+4 References Property  =rmproReferencesProperty@ccreadme.hlp>langref
+4 Reserved Property and Method names   =rmhowReservedPropertyMethodNames@ccreadme.hlp>langref
+4 ShowTips Property is Read-Only  =rmmscShowTipsPropertyIsReadOnlyReadMe@ccreadme.hlp>langref
+4 StandardSize Property for Property Pages Doesn't Work As Expected  =rmmscStandardSizePropertyForPropertyPagesDoesntWorkAsExpectedReadme@ccreadme.hlp>langref
+3 Functions
+4 Clarification for DateAdd function   =rmstmClarificationForDateAddFunction@ccreadme.hlp>langref
+4 Help for DateSerial gives incorrect information on Year argument  =rmmscHelpForDateSerialGivesIncorrectInformationOnYearArgumentReadMe@ccreadme.hlp>langref
+3 Methods
+4 An object may terminate with a Friend method in the Call Tree  =rmmscAnObjectMayTerminateWithFriendMethodInCallTreeReadMe@ccreadme.hlp>langref
+4 GetSelectedText Method Replaced by GetSelection Method  =vbmthGetSelectedTextDoesntExist@ccreadme.hlp>langref
+4 Hide Method Fails When Repeated in Modal Forms  =rmmscHideMethodFailsWhenRepeatedInModalForms@ccreadme.hlp>langref
+4 ListView Tooltips Cause ZOrder Problems When Used in Addins  =rmmscListViewToolTipsCauseZOrderProblemsWhenUsedInAddins@ccreadme.hlp>langref
+4 Method Incorrectly Called Property  =rmstmMethodIncorrectlyCalledProperty@ccreadme.hlp>langref
+4 PaintPicture Method: Opcode Argument Only Applies to Bitmaps  =rmmscPaintPictureMethodOpcodeArgumentOnlyAppliesToBitmapsReadme@ccreadme.hlp>langref
+4 Print Method is Not Listed in the Object Browser or With Objects It Applies To=PrintMethodisNotListed
+3 Events
+4 PropertyPage Object Does Not Support Activate and Deactivate Events  =rmmscPropertyPagesActivateDeActivateEventsCantOccurReadMe@ccreadme.hlp>langref
+3 Statements
+4 Description of interfaces that can be used with Implements  =rmmscDescriptionOfInterfacesThatCanBeUsedWithImplements@ccreadme.hlp>langref
+4 Unload Me Statement in ListBox Control ItemCheck Event Causes GPF  =rmconUnloadMeStatementInListBoxControlItemCheckEventCausesGPFReadMe@ccreadme.hlp>langref
+4 Using the WithEvents keyword  =rmhowUsingWithEventsKeyword@ccreadme.hlp>langref
+3 Constants
+4 Error Constants (ComCtl32)  =vbcstErrorConstantsComctl232ocx@ccreadme.hlp>langref
+4 OLEDrop Constants (ComCtl32)  =vbcstOLEDropConstantscomctl232ocx@ccreadme.hlp>langref
+4 OLEDropEffect Constants (ComCtl32)  =vbcstOLEDropEffectConstantscomctl232ocx@ccreadme.hlp>langref
+3 Error Messages
+4 General Error Messages
+5 A property or method call included a reference to a private object.  =rmmscAPropertyOrMethodCallIncludedReferenceToPrivateObjectEitherAsArgumentOrAsReturnValue@ccreadme.hlp>langref
+5 Additional VBA (Language) Error messages   =rmstmAdditionalVBALanguageErrorMessages@ccreadme.hlp>langref
+5 Application not found. Looking for object with CLSID: |1.  =rmmscApplicationNotFoundLookingForObjectWithCLSID1@ccreadme.hlp>langref
+5 Application was launched but it didn't register a class factory.  =rmmscApplicationWasLaunchedButItDidntRegisterClassFactory@ccreadme.hlp>langref
+5 Class is not registered. Looking for object with CLSID: |1.  =rmmscClassNotRegisteredLookingForObjectWithCLSID@ccreadme.hlp>langref
+5 Class not found.  =rmmscClassNotFound@ccreadme.hlp>langref
+5 Class object cannot be determined. Looking for object CLSID: |1.  =rmmscClassObjectCannotBeDeterminedLookingForObjectCLSID@ccreadme.hlp>langref
+5 Current Public/Instancing property values are not valid in this type of project  =rmmsgCurrentPublicinstancingPropertyValuesAreNotValid@ccreadme.hlp>langref
+5 DLL for class not found. Looking for object with CLSID: |1.  =rmmscDLLForClassNotFoundLookingForObjectWithCLSID@ccreadme.hlp>langref
+5 Error in the DLL. Looking for object with CLSID: |1.  =rmmscErrorInDLLLookingForObjectWithCLSID@ccreadme.hlp>langref
+5 Error: 'Item' could not be loaded  =rmmsgErrorItemCouldNotBeLoaded@ccreadme.hlp>langref
+5 Interface not registered. Looking for object with CLSID: |1.  =rmmscInterfaceNotRegisteredLookingForObjectWithCLSID@ccreadme.hlp>langref
+5 Invalid class string. Looking for object with ProgID.  =rmmscInvalidClassStringLookingForObjectWithProgID@ccreadme.hlp>langref
+5 Object is not registered. Looking for object with CLSID: |1.  =rmmscObjectIsNotRegisteredLookingForObjectWithCLSID@ccreadme.hlp>langref
+5 The VBIDE can't provide multiple instances of a SingleUse class  =rmmsgVBIDECantProvideMultipleInstances@ccreadme.hlp>langref
+5 Unexpected error.  =rmmscUnexpectedError@ccreadme.hlp>langref
+5 Using the Comment Block and Uncomment Block Commands=rmcmdUsingCommentUncommentCommands@ccreadme.hlp>langref
+5 Version 'item3' of 'item1' is not registered. The control will be...  =rmmsgVersion20OfitemIsNotRegisteredTheControlWillBeUpgraded@ccreadme.hlp>langref
+5 Visual Basic, Control Creation Error Messages=VisualBasicControlCreationErrorMessages
+5 Wrong OS or OS version for application.  =rmmscWrongOSOrOSVersionForApplicationLookingForObjectWithCLSID@ccreadme.hlp>langref
+2 Other Documentation Updates
+3 General Visual Basic Updates
+4 ActiveX Designers May Not Be Used in Unattended Servers=ActiveXDesignersMayNotBeUsedinUnattendedServers
+4 ActiveX Document Internet Download Issues=ActiveXDocumentInternetDownloadIssues
+4 App.Path Property and CurDir Function May Return UNC Paths, Depending on How the Program/Project is Run=AppPathPropertyandCurdirFunction
+4 Bug with Testing Procedures with the Immediate Window topic  =rmmscBugWithTestingProceduresWithImmediateWindowTopic@ccreadme.hlp>langref
+4 Changing Case of Form or Module Names May Cause Load Error  =rmmscChangingCaseOfFormOrModuleNamesCausesLoadErrorReadme@ccreadme.hlp>langref
+4 Coercion of Byte and String types  =rmconCoercionOfByteStringTypes@ccreadme.hlp>langref
+4 Component Download Fails For DCOM Projects=ComponentDownloadFailsForDCOMProjects
+4 Component Manager Not Included in VB5  =vbmscComponentManagerNotIncludedInVisualBasicVersion50@ccreadme.hlp>langref
+4 Don't change default member to Friend or Private  =rmmscDontChangeDefaultMemberToFriendOrPrivateReadMe@ccreadme.hlp>langref
+4 Download Problems with Multiple VB5-Authored Controls on a Single HTML Page=DownloadProblemswithMultipleVB5AuthoredControls
+4 Errors in callback procedures   =rmhowErrorsInCallbackProcedures@ccreadme.hlp>langref
+4 Event arguments that use OLE data types are not recognized in Access  =rmmscColorPropertiesOfTypeOLECOLORAppearAsLongInAccessReadMe@ccreadme.hlp>langref
+4 Fix to Excel Sample Code in Programming with Components=FixtoExcelSampleCode
+4 GPF When Toggling Folders if UserDocument Object and Designers are Present  =rmmscGPFWhenTogglingFoldersIfUserDocDesignersArePresent@ccreadme.hlp>langref
+4 GPFs on Startup of VB5=GPFsonStartupofVB5
+4 Hard-typed Objects Permitted as Optional Parameters  =rmstmHardtypedObjectsPermittedAsOptionalParametersInVisualBasic5@ccreadme.hlp>langref
+4 Help Button Doesn't Show Up On Property Page  =rmmscHelpButtonDoesntShowUpOnPropertyPageReadme@ccreadme.hlp>langref
+4 Issues with Entry of Non-Latin Characters=IssueswithEntryofNonLatinCharacters
+4 Manually editing VB_PredeclaredId attribute causes problems  =rmmscManuallyEditingVB_PredeclaredIdAttributeCausesProblemsReadMe@ccreadme.hlp>langref
+4 Missing Documentation: ValueTips and Bookmarks  =rmmscMissingValueTips@ccreadme.hlp>langref
+4 Modal dialog or message box blocks events when debugging  =rmmscModalDialogOrMessageBoxBlocksEventsWhenDebugging@ccreadme.hlp>langref
+4 "Permission denied" or "Unexpected error" when compiling OCX or DLL=rmmscPermissionDeniedWithBinaryCompatibilityReadMe
+4 Rich Error Handling Suggested in Initialization Code for ActiveX Documents=RichErrorHandlingSuggestedinInitializationCode
+4 Setup Wizard Looking for "User" or "Kernel"  =rmmscSetupWizardLookingForUserOrKernel@ccreadme.hlp>langref
+4 To use GlobalMultiUse objects internally, declare a global variable  =rmmscToUseGlobalMultiUseObjectsInternallyDeclareGlobalVariableReadMe@ccreadme.hlp>langref
+4 Using Relative Palette Colors  =rmmscUsingRelativePaletteColors@ccreadme.hlp>langref
+4 Visual Basic 4.0 Event Procedures May Cause Errors in Visual Basic 5.0=VisualBasic40EventProceduresMayCauseErrors
+4 Visual Basic 5.0 Bidirectional Features  =rmmscVisualBasic50BidirectionalFeatures@ccreadme.hlp>langref
+3 Code Example and Sample Application Updates
+4 Compile error in Form Unload sample code  =rmmscCompileErrorInSampleApp@ccreadme.hlp>langref
+4 Errata: Conditional Compilation Code Example  =rmmscErrataConditionalCompilationCodeExample@ccreadme.hlp>langref
+4 Programming with Objects - Error in Code Sample  =rmmscProgramminigWithObjectErrorInCodeSampleReadMe@ccreadme.hlp>langref
+3 Installation updates
+4 Access95 Won't Run After Uninstalling VB4  =rmmscAccess95WontRunAfterUninstallingVB4@ccreadme.hlp>langref
+4 Control Creation Edition Installs Some Files as Read-only  =rmmscControlCreationEditionInstallSomeFilesAsReadonlyReadme@ccreadme.hlp>langref
+4 Error Running Setup for CCE Help Before Installing CCE=ErrorRunningSetupforCCEHelp
+4 Exe component hangs creating object from second Exe during startup  =rmmscActiveXExeComponentHangsIfInstalledOnWindows95ReadMe@ccreadme.hlp>langref
+4 If you're using Visual Basic 5.0 with Windows NT 4.0...  =rmmscIfYoureUsingVisualBasic50WithWindowsNT40ReadMe@ccreadme.hlp>langref
+4 Remove MV141KN.OCX From Your System Before Installing  =rmmscRemoveMV141KNOCXFromYourSystemBeforeInstallingReadMe@ccreadme.hlp>langref
+4 Setup Fails On NT 4.0 With FastFind Installed  =rmmscSetupFailsOnNT40WithFastFindInstalledReadme@ccreadme.hlp>langref

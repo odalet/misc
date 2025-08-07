@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<countries>
+  <country name="Andorra" alpha2="AD" alpha3="AND" numeric="020" domain=".ad" />
+  <country name="United Arab Emirates" alpha2="AE" alpha3="ARE" numeric="784" domain=".ae" />
+  <country name="France" alpha2="FR" alpha3="FRA" numeric="250" domain=".fr" />
+</countries>

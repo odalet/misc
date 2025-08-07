@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<countries>
+  <!-- Note: because of the way this file is generated from an Excel sheet, some entries may be completely empty. -->
+  <country name="Afghanistan" numeric="4" />
+  <country name="Albania" numeric="8" />
+  <country name="Antarctica" numeric="10" />
+  <country name="Algeria" numeric="12" />
+  <country name="American Samoa" numeric="16" />
+  <country name="Andorra" numeric="20" />
+  <country name="Angola" numeric="24" />
+  <country name="Antigua and Barbuda" numeric="28" />
+  <country name="Azerbaijan" numeric="31" />
+  <country name="Argentina" numeric="32" />
+  <country name="Australia" numeric="36" />
+  <country name="Austria" numeric="40" />
+  <country name="Bahamas" numeric="44" />
+  <country name="Bahrain" numeric="48" />
+  <country name="Bangladesh" numeric="50" />
+  <country name="Armenia" numeric="51" />
+  <country name="Barbados" numeric="52" />
+  <country name="Belgium" numeric="56" />
+  <country name="Bermuda" numeric="60" />
+  <country name="Bhutan" numeric="64" />
+  <country name="Bolivia, Plurinational State of" numeric="68" />
+  <country name="Bosnia and Herzegovina" numeric="70" />
+  <country name="Botswana" numeric="72" />
+  <country name="Bouvet Island" numeric="74" />
+  <country name="Brazil" numeric="76" />
+  <country name="Belize" numeric="84" />
+  <country name="British Indian Ocean Territory" numeric="86" />
+  <country name="Solomon Islands" numeric="90" />
+  <country name="Virgin Islands, British" numeric="92" />
+  <country name="Brunei Darussalam" numeric="96" />
+  <country name="Bulgaria" numeric="100" />
+  <country name="Myanmar" numeric="104" />
+  <country name="Burundi" numeric="108" />
+  <country name="Belarus" numeric="112" />
+  <country name="Cambodia" numeric="116" />
+  <country name="Cameroon" numeric="120" />
+  <country name="Canada" numeric="124" />
+  <country name="Cabo Verde" numeric="132" />
+  <country name="Cayman Islands" numeric="136" />
+  <country name="Central African Republic" numeric="140" />
+  <country name="Sri Lanka" numeric="144" />
+  <country name="Chad" numeric="148" />
+  <country name="Chile" numeric="152" />
+  <country name="China" numeric="156" />
+  <country name="Taiwan, Province of China" numeric="158" />
+  <country name="Christmas Island" numeric="162" />
+  <country name="Cocos (Keeling) Islands" numeric="166" />
+  <country name="Colombia" numeric="170" />
+  <country name="Comoros" numeric="174" />
+  <country name="Mayotte" numeric="175" />
+  <country name="Congo" numeric="178" />
+  <country name="Congo, the Democratic Republic of the" numeric="180" />
+  <country name="Cook Islands" numeric="184" />
+  <country name="Costa Rica" numeric="188" />
+  <country name="Croatia" numeric="191" />
+  <country name="Cuba" numeric="192" />
+  <country name="Cyprus" numeric="196" />
+  <country name="Czech Republic" numeric="203" />
+  <country name="Benin" numeric="204" />
+  <country name="Denmark" numeric="208" />
+  <country name="Dominica" numeric="212" />
+  <country name="Dominican Republic" numeric="214" />
+  <country name="Ecuador" numeric="218" />
+  <country name="El Salvador" numeric="222" />
+  <country name="Equatorial Guinea" numeric="226" />
+  <country name="Ethiopia" numeric="231" />
+  <country name="Eritrea" numeric="232" />
+  <country name="Estonia" numeric="233" />
+  <country name="Faroe Islands" numeric="234" />
+  <country name="Falkland Islands (Malvinas)" numeric="238" />
+  <country name="South Georgia and the South Sandwich Islands" numeric="239" />
+  <country name="Fiji" numeric="242" />
+  <country name="Finland" numeric="246" />
+  <country name="Åland Islands" numeric="248" />
+  <country name="France" numeric="250" />
+  <country name="French Guiana" numeric="254" />
+  <country name="French Polynesia" numeric="258" />
+  <country name="French Southern Territories" numeric="260" />
+  <country name="Djibouti" numeric="262" />
+  <country name="Gabon" numeric="266" />
+  <country name="Georgia" numeric="268" />
+  <country name="Gambia" numeric="270" />
+  <country name="Palestine, State of" numeric="275" />
+  <country name="Germany" numeric="276" />
+  <country name="Ghana" numeric="288" />
+  <country name="Gibraltar" numeric="292" />
+  <country name="Kiribati" numeric="296" />
+  <country name="Greece" numeric="300" />
+  <country name="Greenland" numeric="304" />
+  <country name="Grenada" numeric="308" />
+  <country name="Guadeloupe" numeric="312" />
+  <country name="Guam" numeric="316" />
+  <country name="Guatemala" numeric="320" />
+  <country name="Guinea" numeric="324" />
+  <country name="Guyana" numeric="328" />
+  <country name="Haiti" numeric="332" />
+  <country name="Heard Island and McDonald Islands" numeric="334" />
+  <country name="Holy See (Vatican City State)" numeric="336" />
+  <country name="Honduras" numeric="340" />
+  <country name="Hong Kong" numeric="344" />
+  <country name="Hungary" numeric="348" />
+  <country name="Iceland" numeric="352" />
+  <country name="India" numeric="356" />
+  <country name="Indonesia" numeric="360" />
+  <country name="Iran, Islamic Republic of" numeric="364" />
+  <country name="Iraq" numeric="368" />
+  <country name="Ireland" numeric="372" />
+  <country name="Israel" numeric="376" />
+  <country name="Italy" numeric="380" />
+  <country name="Côte d'Ivoire" numeric="384" />
+  <country name="Jamaica" numeric="388" />
+  <country name="Japan" numeric="392" />
+  <country name="Kazakhstan" numeric="398" />
+  <country name="Jordan" numeric="400" />
+  <country name="Kenya" numeric="404" />
+  <country name="Korea, Democratic People's Republic of" numeric="408" />
+  <country name="Korea, Republic of" numeric="410" />
+  <country name="Kuwait" numeric="414" />
+  <country name="Kyrgyzstan" numeric="417" />
+  <country name="Lao People's Democratic Republic" numeric="418" />
+  <country name="Lebanon" numeric="422" />
+  <country name="Lesotho" numeric="426" />
+  <country name="Latvia" numeric="428" />
+  <country name="Liberia" numeric="430" />
+  <country name="Libya" numeric="434" />
+  <country name="Liechtenstein" numeric="438" />
+  <country name="Lithuania" numeric="440" />
+  <country name="Luxembourg" numeric="442" />
+  <country name="Macao" numeric="446" />
+  <country name="Madagascar" numeric="450" />
+  <country name="Malawi" numeric="454" />
+  <country name="Malaysia" numeric="458" />
+  <country name="Maldives" numeric="462" />
+  <country name="Mali" numeric="466" />
+  <country name="Malta" numeric="470" />
+  <country name="Martinique" numeric="474" />
+  <country name="Mauritania" numeric="478" />
+  <country name="Mauritius" numeric="480" />
+  <country name="Mexico" numeric="484" />
+  <country name="Monaco" numeric="492" />
+  <country name="Mongolia" numeric="496" />
+  <country name="Moldova, Republic of" numeric="498" />
+  <country name="Montenegro" numeric="499" />
+  <country name="Montserrat" numeric="500" />
+  <country name="Morocco" numeric="504" />
+  <country name="Mozambique" numeric="508" />
+  <country name="Oman" numeric="512" />
+  <country name="Namibia" numeric="516" />
+  <country name="Nauru" numeric="520" />
+  <country name="Nepal" numeric="524" />
+  <country name="Netherlands" numeric="528" />
+  <country name="Curaçao" numeric="531" />
+  <country name="Aruba" numeric="533" />
+  <country name="Sint Maarten (Dutch part)" numeric="534" />
+  <country name="Bonaire, Sint Eustatius and Saba" numeric="535" />
+  <country name="New Caledonia" numeric="540" />
+  <country name="Vanuatu" numeric="548" />
+  <country name="New Zealand" numeric="554" />
+  <country name="Nicaragua" numeric="558" />
+  <country name="Niger" numeric="562" />
+  <country name="Nigeria" numeric="566" />
+  <country name="Niue" numeric="570" />
+  <country name="Norfolk Island" numeric="574" />
+  <country name="Norway" numeric="578" />
+  <country name="Northern Mariana Islands" numeric="580" />
+  <country name="United States Minor Outlying Islands" numeric="581" />
+  <country name="Micronesia, Federated States of" numeric="583" />
+  <country name="Marshall Islands" numeric="584" />
+  <country name="Palau" numeric="585" />
+  <country name="Pakistan" numeric="586" />
+  <country name="Panama" numeric="591" />
+  <country name="Papua New Guinea" numeric="598" />
+  <country name="Paraguay" numeric="600" />
+  <country name="Peru" numeric="604" />
+  <country name="Philippines" numeric="608" />
+  <country name="Pitcairn" numeric="612" />
+  <country name="Poland" numeric="616" />
+  <country name="Portugal" numeric="620" />
+  <country name="Guinea-Bissau" numeric="624" />
+  <country name="Timor-Leste" numeric="626" />
+  <country name="Puerto Rico" numeric="630" />
+  <country name="Qatar" numeric="634" />
+  <country name="Réunion" numeric="638" />
+  <country name="Romania" numeric="642" />
+  <country name="Russian Federation" numeric="643" />
+  <country name="Rwanda" numeric="646" />
+  <country name="Saint Barthélemy" numeric="652" />
+  <country name="Saint Helena, Ascension and Tristan da Cunha" numeric="654" />
+  <country name="Saint Kitts and Nevis" numeric="659" />
+  <country name="Anguilla" numeric="660" />
+  <country name="Saint Lucia" numeric="662" />
+  <country name="Saint Martin (French part)" numeric="663" />
+  <country name="Saint Pierre and Miquelon" numeric="666" />
+  <country name="Saint Vincent and the Grenadines" numeric="670" />
+  <country name="San Marino" numeric="674" />
+  <country name="Sao Tome and Principe" numeric="678" />
+  <country name="Saudi Arabia" numeric="682" />
+  <country name="Senegal" numeric="686" />
+  <country name="Serbia" numeric="688" />
+  <country name="Seychelles" numeric="690" />
+  <country name="Sierra Leone" numeric="694" />
+  <country name="Singapore" numeric="702" />
+  <country name="Slovakia" numeric="703" />
+  <country name="Viet Nam" numeric="704" />
+  <country name="Slovenia" numeric="705" />
+  <country name="Somalia" numeric="706" />
+  <country name="South Africa" numeric="710" />
+  <country name="Zimbabwe" numeric="716" />
+  <country name="Spain" numeric="724" />
+  <country name="South Sudan" numeric="728" />
+  <country name="Sudan" numeric="729" />
+  <country name="Western Sahara" numeric="732" />
+  <country name="Suriname" numeric="740" />
+  <country name="Svalbard and Jan Mayen" numeric="744" />
+  <country name="Swaziland" numeric="748" />
+  <country name="Sweden" numeric="752" />
+  <country name="Switzerland" numeric="756" />
+  <country name="Syrian Arab Republic" numeric="760" />
+  <country name="Tajikistan" numeric="762" />
+  <country name="Thailand" numeric="764" />
+  <country name="Togo" numeric="768" />
+  <country name="Tokelau" numeric="772" />
+  <country name="Tonga" numeric="776" />
+  <country name="Trinidad and Tobago" numeric="780" />
+  <country name="United Arab Emirates" numeric="784" />
+  <country name="Tunisia" numeric="788" />
+  <country name="Turkey" numeric="792" />
+  <country name="Turkmenistan" numeric="795" />
+  <country name="Turks and Caicos Islands" numeric="796" />
+  <country name="Tuvalu" numeric="798" />
+  <country name="Uganda" numeric="800" />
+  <country name="Ukraine" numeric="804" />
+  <country name="Macedonia, the former Yugoslav Republic of" numeric="807" />
+  <country name="Egypt" numeric="818" />
+  <country name="United Kingdom" numeric="826" />
+  <country name="Guernsey" numeric="831" />
+  <country name="Jersey" numeric="832" />
+  <country name="Isle of Man" numeric="833" />
+  <country name="Tanzania, United Republic of" numeric="834" />
+  <country name="United States" numeric="840" />
+  <country name="Virgin Islands, U.S." numeric="850" />
+  <country name="Burkina Faso" numeric="854" />
+  <country name="Uruguay" numeric="858" />
+  <country name="Uzbekistan" numeric="860" />
+  <country name="Venezuela, Bolivarian Republic of" numeric="862" />
+  <country name="Wallis and Futuna" numeric="876" />
+  <country name="Samoa" numeric="882" />
+  <country name="Yemen" numeric="887" />
+  <country name="Zambia" numeric="894" />
+</countries>

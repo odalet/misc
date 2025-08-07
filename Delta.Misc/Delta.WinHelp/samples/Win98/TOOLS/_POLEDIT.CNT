@@ -1,0 +1,6 @@
+:Base poledit.hlp>proc4
+:Title Aide de l'Editeur de stratégie
+:Index Aide de l'Editeur de stratégie=poledit.hlp
+1 Création d'un nouveau fichier de stratégie=IDH_POLEDIT_CREATE_NEW
+1 Configuration du téléchargement automatique à partir de serveurs Windows NT=IDH_POLEDIT_AUTO_DOWNLOAD_NT
+1 Configuration du téléchargement automatique à partir de serveurs NetWare=IDH_POLEDIT_AUTO_DOWNLOAD_NETWARE@poledit.hlp>proc4

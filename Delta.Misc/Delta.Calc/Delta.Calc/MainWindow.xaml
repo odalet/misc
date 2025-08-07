@@ -1,0 +1,11 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:UI="clr-namespace:Delta.Calc.UI" x:Class="Delta.Calc.MainWindow"
+        Title="MainWindow" Height="350" Width="236">
+    <Grid>
+
+        <UI:CalcControl />
+
+    </Grid>
+</Window>

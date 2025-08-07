@@ -1,0 +1,12 @@
+:Base odbcinst.hlp
+:Title Aide de ODBC
+:Index Aide de ODBC=odbcinst.hlp
+1 Boîte de dialogue Ajouter une source de données=add_data_source>procard
+1 Boîte de dialogue Options d'installation avancées=Advanced_Options>concard
+1 Boîte de dialogue Sources de données=Data_sources>concard
+1 Boîte de dialogue Pilotes=Drivers>concard
+1 Boîte de dialogue Installer des pilotes=Install_drivers
+1 Boîte de dialogue Pilotes installés=Installed_driver>concard
+1 Boîte de dialogue Options ODBC=Options>concard
+1 Boîte de dialogue Sélectionner le convertisseur=Select_translator>concard
+1 Boîte de dialogue Sources de données système=System_Data_Sources>concard
